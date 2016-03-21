@@ -1,0 +1,77 @@
+{
+  "buyflows": {
+    "6": 1
+  },
+  "outflows": [
+	{
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "三元桥店"
+    },
+    {
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "巴沟店"
+    },
+	{
+      "num": 1,
+      "cartype": 4,
+      "toDepot": "上地华联店"
+    },
+    {
+      "num": 2,
+      "cartype": 3,
+      "toDepot": "上地华联店"
+    },
+    {
+      "num": 1,
+      "cartype": 8,
+      "toDepot": "上地华联店"
+    },
+    {
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "四惠店"
+    }
+  ],
+  "depotName": "五棵松店",
+  "inflows": [
+	{
+      "num": 1,
+      "fromDepot": "鸟巢店",
+      "cartype": 7
+    },
+    {
+      "num": 1,
+      "fromDepot": "四惠店",
+      "cartype": 4
+    },
+	    {
+      "num": 5,
+      "fromDepot": "白云路店",
+      "cartype": 1
+    },
+	{
+      "num": 2,
+      "cartype": 10,
+      "fromDepot": "上地华联店"
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

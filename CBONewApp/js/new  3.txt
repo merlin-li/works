@@ -1,0 +1,18 @@
+function resizeMarkerWithAnimation(marker) {
+    $(marker.get("ellipse")).empty().switchClass("ellipse-max", "ellipse-normal", 500, function () {
+      resizeMarker(marker);
+    });
+  }
+  
+  function resizeInfoBoxWithAnimation(infoBox) {
+    var infoBoxTemplete,
+        infoBoxDiv = infoBox.getContent();
+        
+    $(infoBoxDiv).fadeOut(1000, function () {
+      infoBox.pixelOffset_ = new google.maps.Size(0, -160);
+      infoBox.draw();
+      //resize popup window
+      infoBoxTemplete = _.template(cbo.view.markerSequenceNumberTemplete, {number: marker.get("sequenceNo")});
+      $(infoBoxDiv).show().empty().html(infoBoxTemplete);
+    });
+  }

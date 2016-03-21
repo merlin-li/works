@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Example Control Test Page</title>
+    <script id="sap-ui-bootstrap"
+        data-sap-ui-theme="base"
+        data-sap-ui-trace="true"
+        type="text/javascript"
+        data-sap-ui-libs="my.uilib"
+        src="../../resources/sap-ui-core.js"
+        >
+    </script>
+    <script src="../../resources/sap-ui-debug.js"></script>
+    <script type="text/javascript">
+
+     jQuery(function () {
+
+        jQuery("#TraceWindowRoot").css('display', 'none');
+        jQuery.sap.log.info("jquery ready called - Application Code");
+
+        var oXmp = new my.uilib.Example("exampleControl");
+        oXmp.setText("Getting Started with Phoenix");
+        oXmp.setTooltip("Tooltip for the Example control");
+        oXmp.attachClick(function(oControlEvent){alert("You clicked on Control with Id: " + oControlEvent.getSource().getId());});
+        oXMP.placeAt("content");
+
+      });
+    </script>
+  </head>
+  <body class="sapUiBody">
+    <h1>Testpage for <code>my.uilib.Example</code></h1>
+    <div id="content"></div>
+  </body>
+</html>

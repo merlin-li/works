@@ -1,0 +1,37 @@
+{
+  "buyflows": {
+    "6": 1
+  },
+  "outflows": [
+  {
+      "num": 3,
+      "cartype": 7,
+      "toDepot": "中关村海龙店"
+    },
+    {
+      "num": 1,
+      "cartype": 10,
+      "toDepot": "五棵松店"
+    }
+  ],
+  "depotName": "北京南站店",
+  "inflows": [
+    {
+      "num": 3,
+      "cartype": 7,
+      "fromDepot": "中关村海龙店"
+    },
+    {
+      "num": 1,
+      "cartype": 10,
+      "fromDepot": "五棵松店"
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    }
+  ]
+}

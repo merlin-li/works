@@ -1,0 +1,33 @@
+{
+  "BuyCost":10000,
+  "RepositioningCost":0.45,
+  "SubstitutionCosts":
+  [
+    {
+        "FromCarType":10,
+        "ToCarType":9,
+        "Cost":50
+    },
+    {
+      "FromCarType":10,
+      "ToCarType":3,
+      "Cost":39
+    },
+    {
+      "FromCarType":10,
+      "ToCarType":13,
+      "Cost":19
+    },
+        {
+      "FromCarType":10,
+      "ToCarType":13,
+      "Cost":19
+    },
+        {
+      "FromCarType":10,
+      "ToCarType":13,
+      "Cost":19
+    }
+
+	]
+}

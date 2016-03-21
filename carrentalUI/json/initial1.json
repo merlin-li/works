@@ -1,0 +1,423 @@
+{
+  "vesselTypes": [
+    {
+      "profit": 282778948,
+      "pcost": 118640,
+      "opcost": 17722470,
+      "name": "b",
+      "n": 10,
+      "used": 10,
+      "cost": 17841110,
+      "revenue": 300620058
+    },
+    {
+      "profit": 411742665,
+      "pcost": 210120,
+      "opcost": 12393140,
+      "name": "s",
+      "n": 20,
+      "used": 20,
+      "cost": 12603260,
+      "revenue": 424345925
+    },
+    {
+      "profit": 329054242,
+      "pcost": 179918,
+      "opcost": 11527125,
+      "name": "m",
+      "n": 15,
+      "used": 15,
+      "cost": 11707043,
+      "revenue": 340761285
+    }
+  ],
+  "profit": 1070100000,
+  "ports": [
+    {
+      "name": "Vladivostok",
+      "cost": 66838,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    },
+    {
+      "name": "Hongkong",
+      "cost": 47200,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    },
+    {
+      "name": "Manila",
+      "cost": 117560,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    },
+    {
+      "name": "Honolulu",
+      "cost": 112179,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    },
+    {
+      "name": "Manzanillo",
+      "cost": 44120,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    },
+    {
+      "name": "Los_Angeles",
+      "cost": 76260,
+      "totalnumberofvessel": 30,
+      "numberofvesselpertype": {
+        "m": 8,
+        "s": 16,
+        "b": 6
+      }
+    }
+  ],
+  "demands": [
+    {
+      "id": 549,
+      "status": "0",
+      "origin": "Vladivostok",
+      "acceptedDemand": "8000",
+      "revenue": 0,
+      "demand": 8000,
+      "departureDay": 0,
+      "destination": "Hongkong"
+    },
+    {
+      "id": 550,
+      "status": "0",
+      "origin": "Vladivostok",
+      "acceptedDemand": "10000",
+      "revenue": 0,
+      "demand": 15000,
+      "departureDay": 1,
+      "destination": "Manila"
+    },
+    {
+      "id": 551,
+      "status": "1",
+      "origin": "Vladivostok",
+      "acceptedDemand": "28000",
+      "revenue": 144000000,
+      "demand": 30000,
+      "departureDay": 4,
+      "destination": "Honolulu"
+    },
+    {
+      "id": 552,
+      "status": "1",
+      "origin": "Hongkong",
+      "acceptedDemand": "16000",
+      "revenue": 10000000,
+      "demand": 20000,
+      "departureDay": 3,
+      "destination": "Manila"
+    },
+    {
+      "id": 553,
+      "status": "1",
+      "origin": "Manila",
+      "acceptedDemand": "28000",
+      "revenue": 132000000,
+      "demand": 30000,
+      "departureDay": 6,
+      "destination": "Honolulu"
+    },
+    {
+      "id": 554,
+      "status": "1",
+      "origin": "Honolulu",
+      "acceptedDemand": "10000",
+      "revenue": 12000000,
+      "demand": 10000,
+      "departureDay": 2,
+      "destination": "Manzanillo"
+    },
+    {
+      "id": 555,
+      "status": "1",
+      "origin": "Honolulu",
+      "acceptedDemand": "20000",
+      "revenue": 60000000,
+      "demand": 20000,
+      "departureDay": 3,
+      "destination": "Los_Angeles"
+    },
+    {
+      "id": 556,
+      "status": "1",
+      "origin": "Manzanillo",
+      "acceptedDemand": "10000",
+      "revenue": 4000000,
+      "demand": 10000,
+      "departureDay": 5,
+      "destination": "Los_Angeles"
+    },
+    {
+      "id": 557,
+      "status": "1",
+      "origin": "Los_Angeles",
+      "acceptedDemand": "10000",
+      "revenue": 16000000,
+      "demand": 15000,
+      "departureDay": 1,
+      "destination": "Manzanillo"
+    },
+    {
+      "id": 558,
+      "status": "1",
+      "origin": "Los_Angeles",
+      "acceptedDemand": "30000",
+      "revenue": 120000000,
+      "demand": 30000,
+      "departureDay": 2,
+      "destination": "Honolulu"
+    },
+    {
+      "id": 559,
+      "status": "1",
+      "origin": "Manzanillo",
+      "acceptedDemand": "6000",
+      "revenue": 0,
+      "demand": 20000,
+      "departureDay": 3,
+      "destination": "Honolulu"
+    },
+    {
+      "id": 560,
+      "status": "1",
+      "origin": "Honolulu",
+      "acceptedDemand": "20000",
+      "revenue": 84000000,
+      "demand": 20000,
+      "departureDay": 5,
+      "destination": "Manila"
+    },
+    {
+      "id": 561,
+      "status": "1",
+      "origin": "Manila",
+      "acceptedDemand": "10000",
+      "revenue": 12000000,
+      "demand": 10000,
+      "departureDay": 6,
+      "destination": "Hongkong"
+    },
+    {
+      "id": 562,
+      "status": "1",
+      "origin": "Honolulu",
+      "acceptedDemand": "30000",
+      "revenue": 155999998,
+      "demand": 30000,
+      "departureDay": 0,
+      "destination": "Vladivostok"
+    },
+    {
+      "id": 563,
+      "status": "1",
+      "origin": "Manila",
+      "acceptedDemand": "10000",
+      "revenue": 31999999,
+      "demand": 10000,
+      "departureDay": 3,
+      "destination": "Vladivostok"
+    },
+    {
+      "id": 564,
+      "status": "1",
+      "origin": "Hongkong",
+      "acceptedDemand": "6000",
+      "revenue": 12000000,
+      "demand": 10000,
+      "departureDay": 2,
+      "destination": "Vladivostok"
+    }
+  ],
+  "operationCost": 41642735,
+  "portCost": 464157,
+  "circulations": [
+    {
+      "id": 1005,
+      "profit": 238616107,
+      "operationCost": 14573496,
+      "vesselUsed": 8,
+      "portCost": 54391,
+      "portSequence": [
+        "Manila",
+        "Honolulu",
+        "Los_Angeles",
+        "Honolulu",
+        "Manila",
+        "Honolulu",
+        "Manila"
+      ],
+      "cost": 14627887,
+      "numOfItinerary": 1,
+      "revenue": 253243994
+    },
+    {
+      "id": 1008,
+      "profit": 38422780,
+      "operationCost": 1871331,
+      "vesselUsed": 3,
+      "portCost": 51814,
+      "portSequence": [
+        "Hongkong",
+        "Vladivostok",
+        "Manila",
+        "Hongkong",
+        "Vladivostok",
+        "Hongkong",
+        "Vladivostok",
+        "Hongkong"
+      ],
+      "cost": 1923145,
+      "numOfItinerary": 1,
+      "revenue": 40345925
+    },
+    {
+      "id": 1011,
+      "profit": 44172630,
+      "operationCost": 3148974,
+      "vesselUsed": 2,
+      "portCost": 54460,
+      "portSequence": [
+        "Manzanillo",
+        "Los_Angeles",
+        "Manzanillo",
+        "Manzanillo"
+      ],
+      "cost": 3203434,
+      "numOfItinerary": 2,
+      "revenue": 47376064
+    },
+    {
+      "id": 1007,
+      "profit": 142642375,
+      "operationCost": 3842375,
+      "vesselUsed": 5,
+      "portCost": 60704,
+      "portSequence": [
+        "Honolulu",
+        "Manila",
+        "Hongkong",
+        "Manila",
+        "Honolulu",
+        "Los_Angeles",
+        "Los_Angeles",
+        "Honolulu"
+      ],
+      "cost": 3903079,
+      "numOfItinerary": 1,
+      "revenue": 146545454
+    },
+    {
+      "id": 1006,
+      "profit": 121259511,
+      "operationCost": 4528450,
+      "vesselUsed": 6,
+      "portCost": 76662,
+      "portSequence": [
+        "Manila",
+        "Vladivostok",
+        "Manila",
+        "Honolulu",
+        "Los_Angeles",
+        "Honolulu",
+        "Hongkong",
+        "Manila",
+        "Manila",
+        "Manila"
+      ],
+      "cost": 4605112,
+      "numOfItinerary": 1,
+      "revenue": 125864623
+    },
+    {
+      "id": 1012,
+      "profit": 92899193,
+      "operationCost": 3036485,
+      "vesselUsed": 5,
+      "portCost": 64322,
+      "portSequence": [
+        "Manila",
+        "Vladivostok",
+        "Honolulu",
+        "Los_Angeles",
+        "Honolulu",
+        "Manila",
+        "Hongkong",
+        "Manila",
+        "Manila"
+      ],
+      "cost": 3100807,
+      "numOfItinerary": 1,
+      "revenue": 96000000
+    },
+    {
+      "id": 1010,
+      "profit": 280440006,
+      "operationCost": 7485324,
+      "vesselUsed": 12,
+      "portCost": 74670,
+      "portSequence": [
+        "Honolulu",
+        "Vladivostok",
+        "Honolulu"
+      ],
+      "cost": 7559994,
+      "numOfItinerary": 6,
+      "revenue": 288000000
+    },
+    {
+      "id": 1009,
+      "profit": 67440501,
+      "operationCost": 3156300,
+      "vesselUsed": 4,
+      "portCost": 27134,
+      "portSequence": [
+        "Manzanillo",
+        "Honolulu",
+        "Manzanillo"
+      ],
+      "cost": 3183434,
+      "numOfItinerary": 2,
+      "revenue": 70623935
+    }
+  ],
+  "regions": [
+    {
+      "name": "north_america"
+    },
+    {
+      "name": "east_asia"
+    }
+  ],
+  "oilCostPerTon": 0,
+  "cost": 42106892,
+  "averageSalaryPerYear": 0,
+  "revenue": 1067999995
+}

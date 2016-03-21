@@ -1,0 +1,162 @@
+#id_tabs  > .sapUiTabPanel > .sapUiAcd  {
+	float: left;
+}
+
+#id_tabs  > .sapUiTabPanel > .chartTabs {
+	float: right;
+}
+
+.map-tab {
+	width: 100%;
+	height: 100%;
+}
+
+.windowTitle {
+	display: block;
+	font-weight: bold;
+	/* font-style: italic; */
+	margin-bottom: 0.25em;
+}
+
+.portPhoto {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-bottom: 1em;
+}
+
+.chartTab {
+  margin-left: 30px;
+}
+
+.profit {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+
+	margin-top: 20px;
+}
+
+.revenue,.cost,.util {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.detail_matrix {
+  margin-top: 50px;
+}
+.chart-table {
+  margin: 10px 0 20px 0;
+}
+
+.slider .sapUiSliStd .sapUiSliText  {
+  color: white;
+}
+
+.pageNation {
+  margin: 20px 140px;
+}
+.overview-btn {
+	float: right;
+	position: relative;
+	margin-top: 4px !important;
+	z-index: 1;
+}
+#lang_selector {
+	float: right;
+	margin: -30px 0px 0 0;
+}
+.slider{
+  position: absolute; 
+  top: 1px; 
+  color: white; 
+  width: 80%;
+  margin: 10px 80px 0 73px;
+  background-color: red;
+  background: rgba(10, 10, 10, 0.6);
+  padding: 5px 5px 0 5px;
+}
+.slider_bar_line {
+  float: left;
+  margin-right: 20px;
+}
+
+.slider_bar_div {
+  margin-top: 10px;
+}
+
+.slider_bar_line {
+  margin-right: 20px;
+}
+
+.slider_show_time {
+  font-size: 15px;
+}
+
+.slider .slider_bar_span {
+  margin: 0 20px;
+}
+.slider .sapUiLbl {
+  color: white;
+}
+/*new event button*/
+.eventBtn{
+	position:absolute;
+	right:15px
+}
+.optDatePickr {
+  margin-top: 20px;
+}
+.optDatePickr div:first-child {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+.runButton {
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+}
+.selectMovementBgColor{
+ background: #007DC0
+}
+.depotDetailPopup {
+  overflow: auto;
+  1height: 100px;
+  max-height: 200px;
+  width: 400px;
+}
+.depotDetailPopup table {
+  border: solid 1px #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0 0 1px #0EF;
+  width: 85%;
+}
+.depotDetailPopup caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #26a2e2;
+}
+.depotDetailPopup table thead tr{
+  text-align:left;
+  background-color: transparent;
+}
+.depotDetailPopup tbody tr:nth-child(odd) {background: #E5E5E5;}
+.depotDetailPopup tbody tr:nth-child(even) {background: #FFF}
+.depotDetailPopup td {
+  padding: 0 5px;
+}
+.depotSelectRoutePopup .title{
+  color: #26a2e2;
+}
+.div_rightPopup img{
+  cursor:point;
+}
+.div_rightPopup strong{
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #26a2e2;
+}

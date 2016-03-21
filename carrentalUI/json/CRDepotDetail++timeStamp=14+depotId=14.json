@@ -1,0 +1,49 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "三元桥店"
+    },
+    {
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "巴沟店"
+    }
+  ],
+  "depotName": "鸟巢店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "四惠店",
+      "cartype": 10
+    },
+    {
+      "num": 1,
+      "fromDepot": "北京南站店",
+      "cartype": 6
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    }
+  ]
+}

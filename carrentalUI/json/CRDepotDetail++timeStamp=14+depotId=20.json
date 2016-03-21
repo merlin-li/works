@@ -1,0 +1,33 @@
+{
+  "outflows": [],
+  "depotName": "果园店",
+  "inflows": [
+    {
+      "num": 2,
+      "fromDepot": "四惠店",
+      "cartype": 11
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    }
+  ]
+}

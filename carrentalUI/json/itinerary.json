@@ -1,0 +1,37 @@
+{
+     "distance": 13076,
+     "itineraries": [
+          {    
+               "end": 0, 
+               "numVessel": 3, 
+               "days": 21, 
+               "start": 0, 
+               "vessel": "s", 
+               "legs": [
+                    {
+                         "end": 0, 
+                         "d": "Dubai", 
+                         "flow": 4000,
+                         "days": 7, 
+                         "o": "Kaohsiung", 
+                         "start": 0,
+                         "revenue":10000,
+                         "util": 0.5,
+                         "demands": [
+                              {
+                                   "id": 1,
+                                   "flow": 100,
+                                   "revenue": 1000
+                              }
+                         ]
+                    }
+               ]
+           }
+		   
+     ], 
+     "pcost": 170960,
+     "revenue": 7364993.0,
+     "profit": 2611371.0,
+     "opcost": 4582662, 
+     "cost": 4753622.0
+}

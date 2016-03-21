@@ -1,0 +1,29 @@
+{
+  "buyflows": {},
+  "outflows": [],
+  "depotName": "巴沟店",
+  "inflows": [
+    {
+      "num": 2,
+      "fromDepot": "国贸店",
+      "cartype": 4
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 5,
+      "number": 1,
+      "from": 11
+    },
+    {
+      "to": 2,
+      "number": 2,
+      "from": 8
+    }
+  ]
+}

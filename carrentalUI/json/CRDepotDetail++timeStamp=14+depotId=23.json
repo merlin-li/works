@@ -1,0 +1,28 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 7,
+      "toDepot": "方庄店"
+    }
+  ],
+  "depotName": "首都机场T3店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 5,
+      "number": 1,
+      "from": 11
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    }
+  ]
+}

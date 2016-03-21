@@ -1,0 +1,31 @@
+{
+  "name": "Test",
+  "template": "route",
+  "entrance": 1,
+  "exit": 2,
+  "mandate": [3, 4, 5],
+  "softLocation": {
+    "7": 1.2,
+    "8": 1.8,
+    "9": 2.0
+  },
+  "parameter": {
+    "TimeMin": 0,
+    "TimeMax": 1440,
+    "MoneyMax": 10000,
+    "AvailableStart": 600,
+    "AvailableEnd": 800,
+    "Budget": 1000,
+    "PopularityWeight": 0.6,
+    "OvertimeWeight": 0.3,
+    "OverspendWeight": 0.4,
+    "IsHardTimelimit": 0,
+    "IsHardBudget": 1,
+    "TimeWeight": 0.2,
+    "CostWeight": 0.2,
+    "NumberVisits": 3,
+    "NeedBreakfast": 0,
+    "NeedLunch": 1,
+    "NeedSupper": 1
+  }
+}

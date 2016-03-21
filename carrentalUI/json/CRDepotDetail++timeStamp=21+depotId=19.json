@@ -1,0 +1,24 @@
+{
+  "buyflows": {},
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 12,
+      "toDepot": "芍药居店"
+    }
+  ],
+  "depotName": "中关村海龙店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 2,
+      "number": 1,
+      "from": 8
+    }
+  ]
+}

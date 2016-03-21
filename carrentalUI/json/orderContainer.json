@@ -1,0 +1,17 @@
+[
+  {
+    "RFID": "RFID1",
+    "order": 3486870,
+    "status": "LOADED",
+    "type": 1,
+    "isUpgraded": false
+  },
+  {
+    "RFID": "RFID2",
+    "order": 3486870,
+    "status": "LOADED",
+    "type": 2,
+    "isUpgraded": true
+  }
+]
+

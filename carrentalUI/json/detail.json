@@ -1,0 +1,43 @@
+﻿{
+     "id": 1,
+     "loadschemes": [
+          {          
+            "flow":3000,
+            "revenue":1000000,
+            "route":"route 3 :Honkong->Manila,Route 5 :Manila->Valastok",
+            "cargolegs":[
+            {
+                            "from":"Honkong",
+                            "to":"Manila",
+                            "revenue":600000,
+                            "startweekday":0,
+                            "endweekday":1,
+                            "sailingdays":1
+            },
+            {
+                            "from":"Manila",
+                            "to":"Valastok",
+                            "revenue":400000,
+                            "startweekday":1,
+                            "endweekday":4,
+                            "sailingdays":3
+            }
+            ]                       
+      },
+      {              
+            "flow":4000,
+            "revenue":800000,
+            "route":"route 7 :Honkong->Valastok",
+            "cargolegs":[
+            {
+                            "from":"Honkong",
+                            "to":"Manila",
+                            "revenue":800000,
+                            "startweekday":0,
+                            "endweekday":4,
+                            "sailingdays":4
+            }
+            ]                       
+          }
+     ] 
+}

@@ -1,0 +1,49 @@
+{
+  "buyflows": {},
+  "outflows": [],
+  "depotName": "白云路店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "五道口清华大学店",
+      "cartype": 9
+    },
+    {
+      "num": 1,
+      "fromDepot": "灯市口店",
+      "cartype": 10
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

@@ -1,0 +1,2812 @@
+{
+     "regions": [
+          {
+               "name": "east_asia"
+          }, 
+          {
+               "name": "north_america"
+          }, 
+          {
+               "name": "west_america"
+          }, 
+          {
+               "name": "europe"
+          }, 
+          {
+               "name": "africa"
+          }, 
+          {
+               "name": "south_america"
+          }, 
+          {
+               "name": "south_pacific"
+          }, 
+          {
+               "name": "middle_east"
+          }
+     ], 
+     "vesseltypes": {
+          "s": {
+               "shipprice": 35000000, 
+               "name": "s", 
+               "oilComsumption": 200, 
+               "costContainerPerKM10000": 120, 
+               "crewsize": 10, 
+               "size": 4000, 
+               "speed": 1000, 
+               "description": "Panamax"
+          }, 
+          "b": {
+               "shipprice": 70000000, 
+               "name": "b", 
+               "oilComsumption": 600, 
+               "costContainerPerKM10000": 100, 
+               "crewsize": 18, 
+               "size": 8000, 
+               "speed": 800, 
+               "description": "Post panamax large"
+          }, 
+          "m": {
+               "shipprice": 50000000, 
+               "name": "m", 
+               "oilComsumption": 250, 
+               "costContainerPerKM10000": 110, 
+               "crewsize": 15, 
+               "size": 6000, 
+               "speed": 900, 
+               "description": "Post panamax"
+          }, 
+          "vb": {
+               "shipprice": 80000000, 
+               "name": "vb", 
+               "oilComsumption": 650, 
+               "costContainerPerKM10000": 90, 
+               "crewsize": 20, 
+               "size": 10000, 
+               "speed": 1000, 
+               "description": "New Panamax"
+          }, 
+          "vvb": {
+               "shipprice": 100000000, 
+               "name": "vvb", 
+               "oilComsumption": 500, 
+               "costContainerPerKM10000": 80, 
+               "crewsize": 25, 
+               "size": 14000, 
+               "speed": 700, 
+               "description": "Ultra large vessels"
+          }
+     }, 
+     "averageSalaryPerYear": 70000, 
+     "ports": {
+          "Santos": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Santos", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-46.328099", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-23.961694", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "San_Francisco": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "San_Francisco", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-122.419644", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "37.777125", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Cartagena": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Cartagena", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-75.505699", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "10.38706", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Hongkong": {
+               "vb": {
+                    "berthingFee": 9000, 
+                    "unloadFee": 100, 
+                    "dailyFee": 960
+               }, 
+               "b": {
+                    "berthingFee": 8000, 
+                    "unloadFee": 100, 
+                    "dailyFee": 960
+               }, 
+               "name": "Hongkong", 
+               "m": {
+                    "berthingFee": 7300, 
+                    "unloadFee": 100, 
+                    "dailyFee": 960
+               }, 
+               "region": "east_asia", 
+               "lon": "114.138443", 
+               "s": {
+                    "berthingFee": 8000, 
+                    "unloadFee": 100, 
+                    "dailyFee": 960
+               }, 
+               "lat": "22.3581", 
+               "vvb": {
+                    "berthingFee": 9900, 
+                    "unloadFee": 100, 
+                    "dailyFee": 960
+               }
+          }, 
+          "Lianyungang": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Lianyungang", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "119.141441", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "34.599548", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Perth": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Perth", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_pacific", 
+               "lon": "115.857239", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-31.95302", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Balboa": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Balboa", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-117.901131", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "33.601349", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Shenzhen": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Shenzhen", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "114.112556", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "22.546789", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "La_Libertad": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "La_Libertad", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-78.284615", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-7.96141", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Toamasina": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Toamasina", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "49.400261", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-18.146049", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Bahia_Blanca": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Bahia_Blanca", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-62.267879", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-38.719554", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Hamburg": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Hamburg", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "9.992455", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "53.553345", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Jeddah": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Jeddah", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "39.18286", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "21.48168", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Dubai": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Dubai", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "55.30865", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "25.269445", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Tanjung": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Tanjung", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "100.336227", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "5.41076", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Miami": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Miami", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-80.237419", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "25.728985", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Boma": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Boma", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "-85.683269", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "36.126607", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Savannah": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Savannah", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-81.090719", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "32.08078", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Osaka": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Osaka", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "135.50323", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "34.677471", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Yingkou": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Yingkou", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "122.277618", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "40.686409", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Seattle": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Seattle", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-122.329439", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "47.60356", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Vladivostok": {
+               "vb": {
+                    "berthingFee": 7200, 
+                    "unloadFee": 58, 
+                    "dailyFee": 558
+               }, 
+               "b": {
+                    "berthingFee": 6800, 
+                    "unloadFee": 58, 
+                    "dailyFee": 558
+               }, 
+               "name": "Vladivostok", 
+               "m": {
+                    "berthingFee": 6200, 
+                    "unloadFee": 58, 
+                    "dailyFee": 558
+               }, 
+               "region": "east_asia", 
+               "lon": "131.910755", 
+               "s": {
+                    "berthingFee": 6000, 
+                    "unloadFee": 58, 
+                    "dailyFee": 558
+               }, 
+               "lat": "43.154616", 
+               "vvb": {
+                    "berthingFee": 7800, 
+                    "unloadFee": 58, 
+                    "dailyFee": 558
+               }
+          }, 
+          "Auckland": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Auckland", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_pacific", 
+               "lon": "-119.104575", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "36.597755", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Port_Klang": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Port_Klang", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "101.408684", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "2.97981", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Kaohsiung": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Kaohsiung", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "120.293228", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "22.672569", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Dakar": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Dakar", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "-17.45191", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "14.68667", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Algeciras": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Algeciras", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "-5.452649", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "36.1276", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "New_York": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "New_York", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-74.007118", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "40.71455", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Singapore": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Singapore", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "103.853256", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "1.29378", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Guangzhou": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Guangzhou", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "113.267616", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "23.107389", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Honolulu": {
+               "vb": {
+                    "berthingFee": 7600, 
+                    "unloadFee": 87, 
+                    "dailyFee": 840
+               }, 
+               "b": {
+                    "berthingFee": 7100, 
+                    "unloadFee": 87, 
+                    "dailyFee": 840
+               }, 
+               "name": "Honolulu", 
+               "m": {
+                    "berthingFee": 6500, 
+                    "unloadFee": 87, 
+                    "dailyFee": 840
+               }, 
+               "region": "east_asia", 
+               "lon": "-157.857614", 
+               "s": {
+                    "berthingFee": 6300, 
+                    "unloadFee": 87, 
+                    "dailyFee": 840
+               }, 
+               "lat": "21.30477", 
+               "vvb": {
+                    "berthingFee": 8200, 
+                    "unloadFee": 87, 
+                    "dailyFee": 840
+               }
+          }, 
+          "Anchorage": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Anchorage", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-149.858384", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "61.21755", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Nazea": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Nazea", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "153.098526", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-26.412001", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Murmansk": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Murmansk", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "33.08685", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "68.97279", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Xiamen": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Xiamen", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "118.079117", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "24.45252", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Port_Said": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Port_Said", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "32.284458", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "31.259279", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Rabat": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Rabat", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "-6.841654", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "34.020885", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Ningbo": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Ningbo", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "121.543549", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "29.87096", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Boston": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Boston", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-71.056699", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "42.358635", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Valparaiso": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Valparaiso", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-86.492961", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "30.511665", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Ho_Chi_Minh_City": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Ho_Chi_Minh_City", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "106.662498", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "10.75918", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Quebec": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Quebec", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-71.219359", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "46.812749", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Acapulco": {
+               "vb": {
+                    "berthingFee": 8000, 
+                    "unloadFee": 80, 
+                    "dailyFee": 770
+               }, 
+               "b": {
+                    "berthingFee": 7500, 
+                    "unloadFee": 80, 
+                    "dailyFee": 770
+               }, 
+               "name": "Acapulco", 
+               "m": {
+                    "berthingFee": 6900, 
+                    "unloadFee": 80, 
+                    "dailyFee": 770
+               }, 
+               "region": "north_america", 
+               "lon": "-99.906969", 
+               "s": {
+                    "berthingFee": 6500, 
+                    "unloadFee": 80, 
+                    "dailyFee": 770
+               }, 
+               "lat": "16.850875", 
+               "vvb": {
+                    "berthingFee": 8500, 
+                    "unloadFee": 80, 
+                    "dailyFee": 770
+               }
+          }, 
+          "Veracruz": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Veracruz", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-96.140754", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "19.19546", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Ambarli": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Ambarli", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "28.710375", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "40.976615", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Adelaide": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Adelaide", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_pacific", 
+               "lon": "138.599884", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-34.926102", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Cape_Town": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Cape_Town", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "18.42197", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-33.919104", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Antofagasta": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Antofagasta", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-70.392749", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-23.631469", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Port_Sudan": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Port_Sudan", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "37.219688", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "19.6157", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Manila": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Manila", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "121.00589", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "14.60962", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Rotterdam": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Rotterdam", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "4.47846", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "51.92282", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Durban": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Durban", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "31.035125", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-29.855744", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Los_Angeles": {
+               "vb": {
+                    "berthingFee": 14000, 
+                    "unloadFee": 150, 
+                    "dailyFee": 1400
+               }, 
+               "b": {
+                    "berthingFee": 12000, 
+                    "unloadFee": 150, 
+                    "dailyFee": 1400
+               }, 
+               "name": "Los_Angeles", 
+               "m": {
+                    "berthingFee": 10000, 
+                    "unloadFee": 150, 
+                    "dailyFee": 1400
+               }, 
+               "region": "north_america", 
+               "lon": "-118.245319", 
+               "s": {
+                    "berthingFee": 9360, 
+                    "unloadFee": 150, 
+                    "dailyFee": 1400
+               }, 
+               "lat": "34.05349", 
+               "vvb": {
+                    "berthingFee": 16000, 
+                    "unloadFee": 150, 
+                    "dailyFee": 1400
+               }
+          }, 
+          "Salalah": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Salalah", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "54.148039", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "17.095866", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Tokio": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Tokio", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "-98.815609", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "47.92216", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Bandar-Abbas": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Bandar-Abbas", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "56.27433", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "27.18717", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Felixstowe": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Felixstowe", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "1.342465", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "51.96137", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Khor_Fakkan": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Khor_Fakkan", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "56.35033", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "25.351101", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Pusan": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Pusan", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "128.999481", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "35.170429", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Aden": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Aden", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "-77.543159", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "38.659142", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Bremerhaven": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Bremerhaven", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "8.582042", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "53.544301", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Reykjavik": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Reykjavik", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "-21.933989", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "64.147415", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Kobe": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Kobe", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "-106.309379", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "39.134838", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Bergen": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Bergen", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "5.33275", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "60.390705", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Surabaya": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Surabaya", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "112.746689", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-7.25857", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Sydney": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Sydney", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_pacific", 
+               "lon": "151.206955", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-33.869629", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Tianjin": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Tianjin", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "117.63343", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "38.95892", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Long_Beach": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Long_Beach", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-118.192399", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "33.766725", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Antwerp": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Antwerp", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "4.39771", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "51.222085", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Shanghai": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Shanghai", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "121.472618", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "31.247709", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Nagoya": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Nagoya", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "136.926224", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "35.14986", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Maputo": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Maputo", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "32.58065", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-25.9681", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Dar_es_Salam": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Dar_es_Salam", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "-12.34125", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "9.9688", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Kolkata": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Kolkata", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "middle_east", 
+               "lon": "88.34616", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "22.52667", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Vancouver": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Vancouver", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-123.114034", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "49.26044", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Valencia": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Valencia", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "-0.376913", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "39.468791", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Montevideo": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Montevideo", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-56.16544", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-34.880901", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Bangkok": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Bangkok", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "100.504822", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "13.75333", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Qingdao": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Qingdao", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "120.34272", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "36.087509", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Jakarta": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Jakarta", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "106.82782", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-6.17144", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Recife": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Recife", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "south_america", 
+               "lon": "-34.872004", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "-8.055384", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Dalian": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Dalian", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "121.576523", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "38.94381", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Laem_Chabang": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Laem_Chabang", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "99.98233", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "13.20777", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Lagos": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Lagos", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "africa", 
+               "lon": "3.42348", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "6.43918", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Colombo": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Colombo", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "79.8722", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "6.9272", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Yokohama": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Yokohama", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "east_asia", 
+               "lon": "139.595123", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "35.452702", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Gioia_Tauro": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Gioia_Tauro", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "europe", 
+               "lon": "15.898575", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "38.42679", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }, 
+          "Oakland": {
+               "vb": {
+                    "berthingFee": 11200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "b": {
+                    "berthingFee": 10200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "name": "Oakland", 
+               "m": {
+                    "berthingFee": 9850, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "region": "north_america", 
+               "lon": "-122.273024", 
+               "s": {
+                    "berthingFee": 9200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }, 
+               "lat": "37.805065", 
+               "vvb": {
+                    "berthingFee": 12200, 
+                    "unloadFee": 140, 
+                    "dailyFee": 1340
+               }
+          }
+     }, 
+     "oilCostPerTon": 412
+}

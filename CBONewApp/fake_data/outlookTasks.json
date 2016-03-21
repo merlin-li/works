@@ -1,0 +1,23 @@
+{
+  "1": {
+    "id": "1",
+    "subject": "Meeting with Suning",
+    "date": "2013-02-20",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  },
+  "2": {
+    "id": "2",
+    "subject": "DKOM keynote speech",
+    "date": "2013-02-21",
+    "startTime": "10:00",
+    "endTime": "12:00"
+  },
+  "3": {
+    "id": "3",
+    "subject": "Weekly meeting",
+    "date": "2013-02-21",
+    "startTime": "14:00",
+    "endTime": "16:00"
+  }
+}

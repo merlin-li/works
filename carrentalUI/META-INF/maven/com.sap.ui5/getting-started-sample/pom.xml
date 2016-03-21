@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+
+  <!--**************************************************************************
+  * POM SECTION: Maven Model Version Settings
+  ***************************************************************************-->
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  
+  <!--**************************************************************************
+  * POM SECTION: Parent POM Settings
+  ***************************************************************************-->
+
+  <parent>
+    <groupId>com.sap.ui5</groupId>
+    <artifactId>maven-webapp-pom</artifactId>
+    <version>1.4.1</version>
+    <relativePath>../../framework/maven/poms/webapp/pom.xml</relativePath>
+  </parent>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Maven Settings
+  ***************************************************************************-->
+
+  <artifactId>getting-started-sample</artifactId>
+  <packaging>war</packaging>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Project Settings
+  ***************************************************************************-->
+
+  <name>${project.artifactId}</name>
+  <description>SAPUI5 - Getting Started Web Module</description>
+  
+
+  <!--**************************************************************************
+  * POM SECTION: Properties Settings
+  ***************************************************************************-->
+
+  <properties>
+  
+    <!-- Eclipse WTP Settings -->
+    <web.context.name>getting-started</web.context.name>
+
+  </properties>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Build Settings
+  ***************************************************************************-->
+
+  <build>
+  
+    <plugins>
+    
+      <plugin>
+        <groupId>com.sap.ui5.tools.maven</groupId>
+        <artifactId>maven-lightening-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-light</id>
+            <phase>package</phase>
+            <goals>
+              <goal>lighten</goal>
+            </goals>
+            <configuration>
+              <warClassifier>static</warClassifier>
+              <zipClassifier>static</zipClassifier>
+              <merge>
+                <module>
+                  <moduleName>sap-ui5</moduleName>
+                  <modules>
+                    <module>sap-ui-core-all</module>
+                    <module>sap-ui-commons-all</module>
+                    <module>sap-ui-table-all</module>
+                    <module>sap-ui-ux3-all</module>
+                  </modules>
+                </module>
+              </merge>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    
+    </plugins>
+  
+  </build>
+  
+  
+  <!--**************************************************************************
+  * POM SECTION: Dependency Settings
+  ***************************************************************************-->
+
+  <dependencies>
+  
+    <!--  server side dependencies -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId> 
+      <artifactId>resource</artifactId> 
+      <version>1.4.1</version> 
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>utils</artifactId>
+      <version>1.4.1</version>
+        <exclusions>
+          <!-- exclude open source stuff which is only needed for the file upload testcase -->
+          <exclusion>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+          </exclusion>
+        </exclusions>
+    </dependency>
+
+    <!-- client side dependencies (UI Libraries) -->
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>core</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>commons</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>table</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>ux3</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>themelib_sap_ux</artifactId>
+      <version>1.4.1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>com.sap.ui5</groupId>
+          <artifactId>dev</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.sap.ui5</groupId>
+          <artifactId>richtexteditor</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>themelib_sap_goldreflection</artifactId>
+      <version>1.4.1</version>
+    </dependency>
+    
+  </dependencies>
+
+
+</project>

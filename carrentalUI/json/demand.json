@@ -1,0 +1,110 @@
+       {
+  "id": 558,
+  "loadSchemes": [
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 0,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 0,
+          "revenue": 24000000,
+          "circulationId": 10646
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    },
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 4,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 4,
+          "revenue": 24000000,
+          "circulationId": 10647
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    },
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 0,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 0,
+          "revenue": 24000000,
+          "circulationId": 10646
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    },
+    {
+      "cargoLegs": [
+      {
+          "to": "Honolulu",
+          "startWeekDay": 0,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 0,
+          "revenue": 24000000,
+          "circulationId": 10646
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    },
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 0,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 0,
+          "revenue": 24000000,
+          "circulationId": 10646
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    },
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 4,
+          "sailingDays": 8,
+          "from": "Vladivostok",
+          "endWeekDay": 5,
+          "revenue": 36000000,
+          "circulationId": 10645
+        }
+      ],
+      "flow": 6000,
+      "revenue": 36000000
+    },
+    {
+      "cargoLegs": [
+        {
+          "to": "Honolulu",
+          "startWeekDay": 0,
+          "sailingDays": 7,
+          "from": "Vladivostok",
+          "endWeekDay": 0,
+          "revenue": 24000000,
+          "circulationId": 10646
+        }
+      ],
+      "flow": 4000,
+      "revenue": 24000000
+    }
+  ]
+}

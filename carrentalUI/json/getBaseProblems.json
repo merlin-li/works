@@ -1,0 +1,18 @@
+[
+     {
+          "pk": 1, 
+          "model": "VesselScheduling5.vesselproblem", 
+          "fields": {
+               "description": "asiaeurope", 
+               "creation_date": "2012-03-25 03:01:49"
+          }
+     }, 
+     {
+          "pk": 2, 
+          "model": "VesselScheduling5.vesselproblem", 
+          "fields": {
+               "description": "transpac", 
+               "creation_date": "2012-03-25 03:01:52"
+          }
+     }
+]

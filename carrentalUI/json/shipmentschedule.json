@@ -1,0 +1,103 @@
+{
+  "loadSchemes": [
+    {
+      "depDay": "2012-06-27",
+      "arriveDay": "2012-07-09",
+      "distance": 15030,
+      "flow": 80,
+      "costPerUnit": 4.055,
+      "legs": [
+        {
+          "from": "Ulsan",
+          "to": "Pusan",
+          "duration": 59,
+          "cost": 4.4,
+          "transportType": 1,
+          "transportId": "",
+          "distance": 20,
+          "startTimestamp": "2012-06-28 08:00:00"
+        },
+        {
+          "from": "Pusan",
+          "to": "Ningbo",
+          "duration": 2880,
+          "cost": 20,
+          "transportType": 2,
+          "transportId": 2156466,
+          "distance": 913,
+          "startTimestamp": "2012-06-28 20:00:00"
+        },
+        {
+          "from": "Ningbo",
+          "to": "Dubai",
+          "duration": 1440,
+          "cost": 140,
+          "transportType": 2,
+          "transportId": 2156465,
+          "distance": 6455,
+          "startTimestamp": "2012-07-02 08:00:00"
+        },
+        {
+          "from": "Dubai",
+          "to": "Cape_Town",
+          "duration": 2880,
+          "cost": 160,
+          "transportType": 2,
+          "transportId": 2156475,
+          "distance": 7642,
+          "startTimestamp": "2012-07-08 20:00:00"
+        }
+      ]
+    },
+    {
+      "depDay": "2012-06-27",
+      "arriveDay": "2012-07-09",
+      "distance": 15030,
+      "flow": 80,
+      "costPerUnit": 4.055,
+      "legs": [
+        {
+          "from": "Ulsan",
+          "to": "Pusan",
+          "duration": 59,
+          "cost": 4.4,
+          "transportType": 1,
+          "transportId": "",
+          "distance": 20,
+          "startTimestamp": "2012-06-28 08:00:00"
+        },
+        {
+          "from": "Pusan",
+          "to": "Ningbo",
+          "duration": 2880,
+          "cost": 20,
+          "transportType": 2,
+          "transportId": 2156466,
+          "distance": 913,
+          "startTimestamp": "2012-06-28 20:00:00"
+        },
+        {
+          "from": "Ningbo",
+          "to": "Dubai",
+          "duration": 1440,
+          "cost": 140,
+          "transportType": 2,
+          "transportId": 2156465,
+          "distance": 6455,
+          "startTimestamp": "2012-07-02 08:00:00"
+        },
+        {
+          "from": "Dubai",
+          "to": "Cape_Town",
+          "duration": 2880,
+          "cost": 160,
+          "transportType": 2,
+          "transportId": 2156475,
+          "distance": 7642,
+          "startTimestamp": "2012-07-08 20:00:00"
+        }
+      ]
+    }
+  ]
+}
+

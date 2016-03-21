@@ -1,0 +1,33 @@
+{
+  "outflows": [],
+  "depotName": "灯市口店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "白云路店",
+      "cartype": 9
+    },
+    {
+      "num": 5,
+      "fromDepot": "黄村火车站店",
+      "cartype": 8
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 5,
+      "number": 1,
+      "from": 11
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 8,
+      "toDepot": "朝阳公园店"
+    }
+  ],
+  "depotName": "工体店",
+  "inflows": [
+    {
+      "num": 5,
+      "fromDepot": "白云路店",
+      "cartype": 1
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 9,
+      "number": 3,
+      "from": 3
+    },
+    {
+      "to": 1,
+      "number": 3,
+      "from": 9
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "buyflows": {
+    "6": 1
+  },
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 11,
+      "toDepot": "灯市口店"
+    }
+  ],
+  "depotName": "五棵松店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "中关村海龙店",
+      "cartype": 10
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

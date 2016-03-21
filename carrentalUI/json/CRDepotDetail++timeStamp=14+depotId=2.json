@@ -1,0 +1,48 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 4,
+      "toDepot": "上地华联店"
+    },
+    {
+      "num": 1,
+      "cartype": 10,
+      "toDepot": "上地华联店"
+    },
+    {
+      "num": 2,
+      "cartype": 7,
+      "toDepot": "望京店"
+    }
+  ],
+  "depotName": "首都机场店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    }
+  ]
+}

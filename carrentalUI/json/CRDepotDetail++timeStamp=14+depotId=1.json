@@ -1,0 +1,153 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 12,
+      "toDepot": "望京店"
+    }
+  ],
+  "depotName": "国贸店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 13
+    },
+    {
+      "to": 3,
+      "number": 1,
+      "from": 7
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

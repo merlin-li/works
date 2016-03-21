@@ -1,0 +1,48 @@
+{
+  "outflows": [
+    {
+      "num": 5,
+      "cartype": 1,
+      "toDepot": "工体店"
+    },
+    {
+      "num": 1,
+      "cartype": 9,
+      "toDepot": "灯市口店"
+    }
+  ],
+  "depotName": "白云路店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    },
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

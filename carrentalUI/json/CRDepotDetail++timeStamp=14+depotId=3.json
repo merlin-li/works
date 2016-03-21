@@ -1,0 +1,18 @@
+{
+  "outflows": [
+    {
+      "num": 1,
+      "cartype": 6,
+      "toDepot": "鸟巢店"
+    }
+  ],
+  "depotName": "北京南站店",
+  "inflows": [],
+  "UpgradeDetails": [
+    {
+      "to": 7,
+      "number": 1,
+      "from": 10
+    }
+  ]
+}

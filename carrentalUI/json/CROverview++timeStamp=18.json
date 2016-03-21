@@ -1,0 +1,2938 @@
+{
+  "statistic": {
+    "北京南站店": {
+      "upgrade": 1,
+      "incoming": 38,
+      "stock": 51,
+      "outgoing": 36,
+      "demand": 51
+    },
+    "中关村海龙店": {
+      "upgrade": 2,
+      "incoming": 24,
+      "stock": 59,
+      "outgoing": 15,
+      "demand": 59
+    },
+    "果园店": {
+      "upgrade": 4,
+      "incoming": 26,
+      "stock": 47,
+      "outgoing": 29,
+      "demand": 47
+    },
+    "四惠店": {
+      "upgrade": 3,
+      "incoming": 24,
+      "stock": 91,
+      "outgoing": 52,
+      "demand": 91
+    },
+    "上地华联店": {
+      "upgrade": 5,
+      "incoming": 45,
+      "stock": 36,
+      "outgoing": 21,
+      "demand": 36
+    },
+    "五棵松店": {
+      "upgrade": 3,
+      "incoming": 20,
+      "stock": 69,
+      "outgoing": 34,
+      "demand": 69
+    },
+    "望京店": {
+      "upgrade": 15,
+      "incoming": 47,
+      "stock": 63,
+      "outgoing": 22,
+      "demand": 63
+    },
+    "黄村火车站店": {
+      "upgrade": 2,
+      "incoming": 21,
+      "stock": 49,
+      "outgoing": 13,
+      "demand": 49
+    },
+    "五道口清华大学店": {
+      "upgrade": 5,
+      "incoming": 20,
+      "stock": 56,
+      "outgoing": 22,
+      "demand": 56
+    },
+    "首都机场T3店": {
+      "upgrade": 3,
+      "incoming": 23,
+      "stock": 72,
+      "outgoing": 19,
+      "demand": 72
+    },
+    "鸟巢逸致试驾店": {
+      "upgrade": 0,
+      "incoming": 4,
+      "stock": 8,
+      "outgoing": 4,
+      "demand": 8
+    },
+    "鸟巢店": {
+      "upgrade": 4,
+      "incoming": 14,
+      "stock": 72,
+      "outgoing": 26,
+      "demand": 72
+    },
+    "灯市口店": {
+      "upgrade": 3,
+      "incoming": 29,
+      "stock": 47,
+      "outgoing": 17,
+      "demand": 47
+    },
+    "首体店": {
+      "upgrade": 7,
+      "incoming": 20,
+      "stock": 68,
+      "outgoing": 39,
+      "demand": 68
+    },
+    "亦庄美廉美店": {
+      "upgrade": 0,
+      "incoming": 11,
+      "stock": 2,
+      "outgoing": 11,
+      "demand": 2
+    },
+    "鸟巢顺风车店": {
+      "upgrade": 0,
+      "incoming": 4,
+      "stock": 45,
+      "outgoing": 6,
+      "demand": 45
+    },
+    "三元桥店": {
+      "upgrade": 1,
+      "incoming": 37,
+      "stock": 53,
+      "outgoing": 57,
+      "demand": 53
+    },
+    "北京站店": {
+      "upgrade": 2,
+      "incoming": 25,
+      "stock": 38,
+      "outgoing": 18,
+      "demand": 38
+    },
+    "方庄店": {
+      "upgrade": 14,
+      "incoming": 32,
+      "stock": 62,
+      "outgoing": 18,
+      "demand": 62
+    },
+    "丰体店": {
+      "upgrade": 1,
+      "incoming": 24,
+      "stock": 40,
+      "outgoing": 17,
+      "demand": 40
+    },
+    "天通苑南店": {
+      "upgrade": 4,
+      "incoming": 24,
+      "stock": 72,
+      "outgoing": 29,
+      "demand": 72
+    },
+    "芍药居店": {
+      "upgrade": 4,
+      "incoming": 21,
+      "stock": 47,
+      "outgoing": 29,
+      "demand": 47
+    },
+    "国贸店": {
+      "upgrade": 28,
+      "incoming": 16,
+      "stock": 81,
+      "outgoing": 47,
+      "demand": 81
+    },
+    "朝阳公园店": {
+      "upgrade": 3,
+      "incoming": 20,
+      "stock": 53,
+      "outgoing": 26,
+      "demand": 53
+    },
+    "朝阳大悦城店": {
+      "upgrade": 17,
+      "incoming": 78,
+      "stock": 30,
+      "outgoing": 14,
+      "demand": 30
+    },
+    "首都机场店": {
+      "upgrade": 5,
+      "incoming": 18,
+      "stock": 49,
+      "outgoing": 38,
+      "demand": 49
+    },
+    "巴沟店": {
+      "upgrade": 4,
+      "incoming": 23,
+      "stock": 51,
+      "outgoing": 20,
+      "demand": 51
+    },
+    "白云路店": {
+      "upgrade": 6,
+      "incoming": 19,
+      "stock": 72,
+      "outgoing": 35,
+      "demand": 72
+    },
+    "工体店": {
+      "upgrade": 7,
+      "incoming": 27,
+      "stock": 63,
+      "outgoing": 20,
+      "demand": 63
+    }
+  },
+  "buyflows": {},
+  "flow": {
+    "timestamp": 18,
+    "legs": [
+      {
+        "to": "工体店",
+        "from": "五棵松店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "工体店",
+        "from": "五棵松店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "灯市口店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "望京店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "工体店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "望京店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "果园店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "天通苑南店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢逸致试驾店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "朝阳大悦城店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢顺风车店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "首都机场店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "北京站店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "首都机场店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "天通苑南店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "首都机场店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "望京店",
+        "from": "首都机场店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "首都机场店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "首都机场店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "首都机场店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "灯市口店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "首都机场店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "首都机场T3店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "白云路店",
+        "repositioningflow": 6
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "白云路店",
+        "repositioningflow": 5
+      },
+      {
+        "to": "灯市口店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "白云路店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢顺风车店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "鸟巢店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "上地华联店",
+        "from": "鸟巢店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "上地华联店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "鸟巢店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "芍药居店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "鸟巢店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "巴沟店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "鸟巢店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "四惠店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "方庄店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "五棵松店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "望京店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "国贸店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "四惠店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "灯市口店",
+        "from": "四惠店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首体店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "四惠店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "芍药居店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京南站店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "芍药居店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "芍药居店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "芍药居店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "芍药居店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "工体店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "芍药居店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首体店",
+        "from": "芍药居店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢顺风车店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "国贸店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "北京南站店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "国贸店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "国贸店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "国贸店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "国贸店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "国贸店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "工体店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "国贸店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首体店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "国贸店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "朝阳公园店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "朝阳公园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "上地华联店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "朝阳公园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "朝阳公园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "朝阳公园店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "工体店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "朝阳公园店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "首体店",
+        "from": "朝阳公园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "黄村火车站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "黄村火车站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "黄村火车站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "天通苑南店",
+        "from": "黄村火车站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "黄村火车站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "黄村火车站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "灯市口店",
+        "from": "黄村火车站店",
+        "repositioningflow": 5
+      },
+      {
+        "to": "三元桥店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "方庄店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "果园店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "五道口清华大学店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "巴沟店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "三元桥店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "巴沟店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "天通苑南店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "巴沟店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "鸟巢逸致试驾店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "鸟巢逸致试驾店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "鸟巢逸致试驾店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "鸟巢逸致试驾店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "工体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "上地华联店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "工体店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "工体店",
+        "repositioningflow": 9
+      },
+      {
+        "to": "首都机场店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "工体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "灯市口店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "灯市口店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "首体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京南站店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "上地华联店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "首体店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢逸致试驾店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "首体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "工体店",
+        "from": "首体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "灯市口店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "首体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京站店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "亦庄美廉美店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "鸟巢顺风车店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "果园店",
+        "from": "鸟巢顺风车店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "鸟巢顺风车店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "鸟巢顺风车店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "鸟巢顺风车店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "三元桥店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "北京南站店",
+        "from": "三元桥店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "北京南站店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "三元桥店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "上地华联店",
+        "from": "三元桥店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "上地华联店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "三元桥店",
+        "repositioningflow": 7
+      },
+      {
+        "to": "望京店",
+        "from": "三元桥店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "望京店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "三元桥店",
+        "repositioningflow": 7
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "三元桥店",
+        "repositioningflow": 8
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢逸致试驾店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "三元桥店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "北京站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "望京店",
+        "from": "北京站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "北京站店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "北京站店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "首都机场店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "北京站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "北京站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "三元桥店",
+        "from": "北京南站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "三元桥店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "北京南站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "北京南站店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "北京南站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "丰体店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "北京南站店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "五棵松店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "北京南站店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "白云路店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "北京南站店",
+        "repositioningflow": 4
+      },
+      {
+        "to": "黄村火车站店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "北京南站店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "方庄店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京站店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "方庄店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "白云路店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首体店",
+        "from": "方庄店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "中关村海龙店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "上地华联店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "中关村海龙店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "丰体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京南站店",
+        "from": "丰体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "方庄店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "丰体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "方庄店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "天通苑南店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳公园店",
+        "from": "丰体店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "鸟巢逸致试驾店",
+        "from": "丰体店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "果园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "三元桥店",
+        "from": "果园店",
+        "repositioningflow": 6
+      },
+      {
+        "to": "北京站店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "果园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "望京店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "果园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "国贸店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "果园店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "果园店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "首体店",
+        "from": "果园店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "亦庄美廉美店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京南站店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "天通苑南店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "丰体店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五棵松店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "天通苑南店",
+        "repositioningflow": 9
+      },
+      {
+        "to": "白云路店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "天通苑南店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "工体店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "灯市口店",
+        "from": "天通苑南店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢顺风车店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "北京站店",
+        "from": "上地华联店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京站店",
+        "from": "上地华联店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "方庄店",
+        "from": "上地华联店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "中关村海龙店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "果园店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "鸟巢店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "国贸店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "五道口清华大学店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "工体店",
+        "from": "上地华联店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "三元桥店",
+        "from": "五棵松店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "北京南站店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "方庄店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "丰体店",
+        "from": "五棵松店",
+        "repositioningflow": 3
+      },
+      {
+        "to": "果园店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "上地华联店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "望京店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "朝阳大悦城店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "首都机场T3店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "四惠店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "芍药居店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      },
+      {
+        "to": "巴沟店",
+        "from": "五棵松店",
+        "repositioningflow": 2
+      },
+      {
+        "to": "巴沟店",
+        "from": "五棵松店",
+        "repositioningflow": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "outflows": [
+    {
+      "num": 3,
+      "cartype": 7,
+      "toDepot": "方庄店"
+    }
+  ],
+  "depotName": "上地华联店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "首都机场店",
+      "cartype": 4
+    },
+    {
+      "num": 1,
+      "fromDepot": "首都机场店",
+      "cartype": 10
+    },
+    {
+      "num": 1,
+      "fromDepot": "首体店",
+      "cartype": 4
+    },
+    {
+      "num": 2,
+      "fromDepot": "首体店",
+      "cartype": 3
+    },
+    {
+      "num": 1,
+      "fromDepot": "首体店",
+      "cartype": 8
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 13,
+      "number": 1,
+      "from": 7
+    },
+    {
+      "to": 5,
+      "number": 1,
+      "from": 11
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    },
+    {
+      "to": 11,
+      "number": 1,
+      "from": 12
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>HANA Tour Guide</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.qtip.min.css">
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.0.custom.min.css">
+    <link rel="stylesheet" href="css/dd.css" />
+    <script type="text/ecmascript" src="https://maps.google.com/maps/api/js?sensor=false&language=zh"></script>
+    
+  </script>
+  </head>
+  <body>
+    <article id="willHideBg"></article>
+    <article id="wrapper" class="clearfix">
+        <section id="content" class="page">
+          <div id="page-list" class="clearfix">
+            <section id="cover" class="page book-page active">
+              <header></header>
+              <div class="main">
+                <img id="people" src="images/cover_people3.png" alt="" />
+                <img id="arm" src="images/cover_people2 arm-01.png" alt="" />
+                <table id="login-info">
+                  <tr>
+                    <td>User Name</td>
+                    <td><input id="name-id" type="text" name="user-name" /></td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td><input id="pwd-id" type="password" name="password" /></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td><span id="login-id" class="login-btn">Log in</span></td>
+                  </tr>
+                </table>
+              </div>              
+            </section>
+            <section id="parameter" class="book-page">
+              <header></header>
+              <div id="will-shade"></div>
+              <div class="main">
+                <article id="hard-constraint" class="constraint" droppable="true">
+                  <h2>Hard Constraints</h2>
+                  <section id="hard-parameters"></section>
+                </article>
+                <article id="soft-constraint" class="constraint" droppable="true">
+                  <h2>Soft Constraints</h2>
+                  <section id="soft-parameters"></section>
+                </article>
+                <nav id="parameter-nav"></nav>
+              </div>
+            </section>
+            <section id="plan-result" class="book-page">
+              <header></header>
+              <div class="main">
+                <aside id="plan-sequence"></aside>
+                <article id="map-canvas"></article>
+                <div id="time-budget-show"></div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </article>
+      <div id = "tts"></div>
+      <div id="show-caption"><p class="caption"></p></div>
+    <script type="text/javascript" src="js/lib/LAB.min.js"></script>
+    <script>
+      $LAB.setOptions({AlwaysPreserveOrder:true})
+      .script("js/lib/jquery.min.js")
+      .script("js/lib/raphael-min.js")
+      .script("js/lib/jquery-ui-1.10.0.custom.min.js")
+      .script("js/lib/underscore-min.js")
+      .script("js/lib/google_map_infobox.js")
+      .script("js/lib/turn.min.js")
+      .script("js/lib/jquery.qtip.min.js")
+      .script("js/base.js")
+      .script("js/util.js")
+      .script("js/view.js")
+      .script("js/controller.js")
+      .script("js/threeDModel.js")
+      .script("js/model.js")
+      .script("js/main.js")
+      .script("js/lib/richmarker.js")
+      .script("js/lib/easel.js")
+      .script("js/lib/infobox.js")
+      .script("js/lib/jquery.dd.js")
+    </script> 
+  </body>
+</html>

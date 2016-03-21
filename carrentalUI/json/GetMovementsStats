@@ -1,0 +1,127 @@
+[
+  {
+    "Costs": {
+      "Borrowed": 0.0,
+      "Substitution": 153.0,
+      "Repositioning": 2228.76
+    },
+    "FleetUtilization": {
+      "Borrowed": 0.0,
+      "Repositioning": 0.05177265,
+      "Substitutions": 0.005627462,
+      "Assignments": 0.9425999
+    },
+    "Stats": {
+      "RepositioningCost": 2228.76,
+      "NumberRepositionings": 184,
+      "NumberUpgrades": 20,
+      "Utilisation": 2185.0,
+      "RepositioningDistance": 5436.0,
+      "UpgradeCost": 153.0,
+      "NumberBorrowed": 0,
+      "TotalCost": 2381.76,
+      "NumberOrders": 3554,
+      "optid": 4
+    }
+  },
+  {
+    "Costs": {
+      "Borrowed": 0.0,
+      "Substitution": 153.0,
+      "Repositioning": 2228.76
+    },
+    "FleetUtilization": {
+      "Borrowed": 0.0,
+      "Repositioning": 0.035256412,
+      "Substitutions": 0.005789909,
+      "Assignments": 0.9589537
+    },
+    "Stats": {
+      "RepositioningCost": 4140.18,
+      "NumberRepositionings": 341,
+      "NumberUpgrades": 56,
+      "Utilisation": 3141.0,
+      "RepositioningDistance": 10098.0,
+      "UpgradeCost": 447.0,
+      "NumberBorrowed": 0,
+      "TotalCost": 4587.18,
+      "NumberOrders": 9672,
+      "optid": 5
+    }
+  },
+  {
+    "Costs": {
+      "Borrowed": 0.0,
+      "Substitution": 153.0,
+      "Repositioning": 2228.76
+    },
+    "FleetUtilization": {
+      "Borrowed": 0.0,
+      "Repositioning": 0.020537918,
+      "Substitutions": 0.0046848203,
+      "Assignments": 0.9747773
+    },
+    "Stats": {
+      "RepositioningCost": 5444.8,
+      "NumberRepositionings": 491,
+      "NumberUpgrades": 112,
+      "Utilisation": 3918.0,
+      "RepositioningDistance": 13280.0,
+      "UpgradeCost": 1013.0,
+      "NumberBorrowed": 0,
+      "TotalCost": 6457.8,
+      "NumberOrders": 23907,
+      "optid": 1
+    }
+  },
+  {
+    "Costs": {
+      "Borrowed": 0.0,
+      "Substitution": 153.0,
+      "Repositioning": 2228.76
+    },
+    "FleetUtilization": {
+      "Borrowed": 0.0,
+      "Repositioning": 0.020537918,
+      "Substitutions": 0.0046848203,
+      "Assignments": 0.9747773
+    },
+    "Stats": {
+      "RepositioningCost": 7304.0,
+      "NumberRepositionings": 491,
+      "NumberUpgrades": 112,
+      "Utilisation": 3918.0,
+      "RepositioningDistance": 13280.0,
+      "UpgradeCost": 1013.0,
+      "NumberBorrowed": 0,
+      "TotalCost": 8317.0,
+      "NumberOrders": 23907,
+      "optid": 2
+    }
+  },
+  {
+    "Costs": {
+      "Borrowed": 0.0,
+      "Substitution": 153.0,
+      "Repositioning": 2228.76
+    },
+    "FleetUtilization": {
+      "Borrowed": 0.0,
+      "Repositioning": 0.020537918,
+      "Substitutions": 0.0046848203,
+      "Assignments": 0.9747773
+    },
+    "Stats": {
+      "RepositioningCost": 7304.0,
+      "NumberRepositionings": 491,
+      "NumberUpgrades": 112,
+      "Utilisation": 3918.0,
+      "RepositioningDistance": 13280.0,
+      "UpgradeCost": 1623.0,
+      "NumberBorrowed": 0,
+      "TotalCost": 8927.0,
+      "NumberOrders": 23907,
+      "optid": 3
+    }
+  }
+]

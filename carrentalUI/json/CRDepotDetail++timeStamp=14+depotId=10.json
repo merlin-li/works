@@ -1,0 +1,23 @@
+{
+  "outflows": [],
+  "depotName": "三元桥店",
+  "inflows": [
+    {
+      "num": 1,
+      "fromDepot": "鸟巢店",
+      "cartype": 7
+    },
+    {
+      "num": 1,
+      "fromDepot": "四惠店",
+      "cartype": 4
+    }
+  ],
+  "UpgradeDetails": [
+    {
+      "to": 1,
+      "number": 1,
+      "from": 9
+    }
+  ]
+}

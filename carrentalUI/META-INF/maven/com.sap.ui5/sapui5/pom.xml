@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+
+  <!--**************************************************************************
+  * POM SECTION: Maven Model Version Settings
+  ***************************************************************************-->
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  
+  <!--**************************************************************************
+  * POM SECTION: Parent POM Settings
+  ***************************************************************************-->
+
+  <parent>
+    <groupId>com.sap.ui5</groupId>
+    <artifactId>maven-webapp-pom</artifactId>
+    <version>1.4.2</version>
+    <relativePath>../../framework/maven/poms/webapp/pom.xml</relativePath>
+  </parent>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Maven Settings
+  ***************************************************************************-->
+
+  <artifactId>sapui5</artifactId>
+  <packaging>war</packaging>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Project Settings
+  ***************************************************************************-->
+
+  <name>${project.artifactId}</name>
+  <description>SAPUI5 - Content Delivery Network Deployable</description>
+  
+
+  <!--**************************************************************************
+  * POM SECTION: Properties Settings
+  ***************************************************************************-->
+
+  <properties>
+  
+    <!-- Eclipse WTP Settings -->
+    <web.context.name>sapui5</web.context.name>
+
+  </properties>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Build Settings
+  ***************************************************************************-->
+
+  <build>
+  
+    <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>unpack-dependencies</id>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <includes>META-INF/resources/*-all.js</includes>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <!-- launch the external ANT build (to synchronize Maven and Japro) -->
+      <plugin>
+        <groupId>org.jvnet.maven-antrun-extended-plugin</groupId>
+        <artifactId>maven-antrun-extended-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>mvn-antrun-compile</id>
+            <phase>prepare-package</phase>
+            <configuration>
+              <tasks >
+                <taskdef resource="com/sap/ui5/tools/build/ant/antlib.xml" classpathref="maven.plugin.classpath"/>
+                <module name="sap-ui5" source="${basedir}/target/dependency/META-INF/resources" target="${basedir}/target/${web.context.name}/resources" verbose="true" listedModulesOnly="true"> 
+                  <module name="sap-ui-core-all" mode="raw" />
+                  <module name="sap-ui-commons-all" />
+                  <module name="sap-ui-table-all" />
+                  <module name="sap-ui-ux3-all" />
+                </module>
+              </tasks>
+            </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
+
+        <!-- WORKAROUND                                                                        -->
+        <!-- The maven-antrun-plugin evaluates the plugin dependencies only in the very first  -->
+        <!-- POM that uses the maven-antrun-plugin. To avoid inconsistencies depending on what -->
+        <!-- tree of POMS is currently build, we have to configure __ALL__ usages of the       -->
+        <!-- maven-antrun-plugin consistently                                                  -->
+        <!-- See: http://jira.codehaus.org/browse/MANTRUN-95                                   -->
+        <dependencies>
+          <!-- use latest ANT version for antrun plugin -->
+          <dependency>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant</artifactId>
+            <version>1.7.1</version>
+          </dependency>
+          <!-- extensions for ANT (e.g. if conditions, ...) -->
+          <dependency>
+            <groupId>ant-contrib</groupId>
+            <artifactId>ant-contrib</artifactId>
+            <version>1.0b3</version>
+            <exclusions>
+              <exclusion>
+                <groupId>ant</groupId>
+                <artifactId>ant</artifactId>
+              </exclusion>
+            </exclusions>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant-trax</artifactId>
+            <version>1.7.1</version>
+          </dependency>
+          <!-- UI5 generator and its dependencies -->
+          <dependency>
+            <groupId>com.sap.ui5.tools.build</groupId>
+            <artifactId>generator</artifactId>
+            <version>1.4.2</version>
+          </dependency>
+          <dependency>
+            <groupId>com.sap.ui5.tools.build</groupId>
+            <artifactId>metamodel</artifactId>
+            <version>1.4.2</version>
+          </dependency>
+          <dependency>
+            <groupId>com.sap.ui5.tools.build</groupId>
+            <artifactId>theming</artifactId>
+            <version>1.4.2</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    
+      <plugin>
+        <groupId>com.sap.ui5.tools.maven</groupId>
+        <artifactId>maven-lightening-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-light</id>
+            <phase>package</phase>
+            <goals>
+              <goal>lighten</goal>
+            </goals>
+            <configuration>
+              <zipClassifier>static</zipClassifier>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    
+    </plugins>
+  
+  </build>
+  
+  
+  <!--**************************************************************************
+  * POM SECTION: Profiles Settings
+  ***************************************************************************-->
+
+  <profiles>
+
+    <profile>
+      <id>optimized.build</id>
+      <activation>
+        <property>
+          <name>ldi.releaseBuild</name>
+        </property>
+      </activation>
+
+      <build>
+
+        <plugins>
+
+          <plugin>
+            <groupId>com.sap.ui5.tools.maven</groupId>
+            <artifactId>maven-lightening-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>attach-opt-light</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>lighten</goal>
+                </goals>
+                <configuration>
+                  <srcWarFile>${project.build.directory}/${project.build.finalName}-opt.war</srcWarFile>
+                  <zipClassifier>opt-static</zipClassifier>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+
+        </plugins>
+
+      </build>
+
+    </profile>
+
+  </profiles>
+
+
+  <!--**************************************************************************
+  * POM SECTION: Dependency Settings
+  ***************************************************************************-->
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>core</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.sap.ui5</groupId> 
+      <artifactId>resource</artifactId> 
+      <version>1.4.2</version> 
+    </dependency>   
+
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>utils</artifactId>
+      <version>1.4.2</version>
+        <exclusions>
+          <!-- exclude open source stuff which is only needed for the proxy testcase -->
+          <exclusion>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+          </exclusion>
+          <!-- exclude open source stuff which is only needed for the file upload testcase -->
+          <exclusion>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+          </exclusion>
+        </exclusions>
+    </dependency>
+
+  <!-- 
+    Add references to all UI5 libraries here which should be  
+      testable in this project
+   -->
+
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>commons</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>table</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.sap.ui5</groupId>
+        <artifactId>themelib_sap_ux</artifactId>
+        <version>1.4.2</version>
+    </dependency>
+
+    <!--
+      Support for new UX3 stuff 
+      -->
+    <dependency>
+      <groupId>com.sap.ui5</groupId>
+      <artifactId>ux3</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.sap.ui5</groupId>
+        <artifactId>themelib_sap_goldreflection</artifactId>
+        <version>1.4.2</version>
+    </dependency>
+    
+  </dependencies>
+
+
+</project>

@@ -1,0 +1,4559 @@
+{
+  "ports": {
+    "Tianjin": {
+      "lon": "117.633430",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Tianjin",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "38.958920"
+    },
+    "Pusan": {
+      "lon": "128.999481",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Pusan",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "35.170429"
+    },
+    "Balboa": {
+      "lon": "-117.901131",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Balboa",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "33.601349"
+    },
+    "Guangzhou": {
+      "lon": "113.267616",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Guangzhou",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "23.107389"
+    },
+    "Ningbo": {
+      "lon": "121.543549",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Ningbo",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "29.870960"
+    },
+    "Tanjung": {
+      "lon": "100.336227",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Tanjung",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "5.410760"
+    },
+    "Kaohsiung": {
+      "lon": "120.293228",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Kaohsiung",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "22.672569"
+    },
+    "Montevideo": {
+      "lon": "-56.165440",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Montevideo",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-34.880901"
+    },
+    "Dubai": {
+      "lon": "55.308650",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Dubai",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "25.269445"
+    },
+    "Bahia_Blanca": {
+      "lon": "-62.267879",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Bahia Blanca",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-38.719554"
+    },
+    "La_Libertad": {
+      "lon": "-78.284615",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "La Libertad",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-7.961410"
+    },
+    "Algeciras": {
+      "lon": "-5.452649",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Algeciras",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "36.127600"
+    },
+    "Veracruz": {
+      "lon": "-96.140754",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Veracruz",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "19.195460"
+    },
+    "Seattle": {
+      "lon": "-122.329439",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Seattle",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "47.603560"
+    },
+    "Maputo": {
+      "lon": "32.580650",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Maputo",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-25.968100"
+    },
+    "Nazea": {
+      "lon": "153.098526",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Nazea",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-26.412001"
+    },
+    "Vladivostok": {
+      "lon": "131.910755",
+      "b": {
+        "berthingFee": 6800,
+        "dailyFee": 58,
+        "unloadFee": 558
+      },
+      "s": {
+        "berthingFee": 6000,
+        "dailyFee": 58,
+        "unloadFee": 558
+      },
+      "vvb": {
+        "berthingFee": 7800,
+        "dailyFee": 58,
+        "unloadFee": 558
+      },
+      "name": "Vladivostok",
+      "vb": {
+        "berthingFee": 7200,
+        "dailyFee": 58,
+        "unloadFee": 558
+      },
+      "m": {
+        "berthingFee": 6200,
+        "dailyFee": 58,
+        "unloadFee": 558
+      },
+      "lat": "43.154616"
+    },
+    "Dar_es_Salam": {
+      "lon": "-12.341250",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Dar es Salam",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "9.968800"
+    },
+    "Boma": {
+      "lon": "-85.683269",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Boma",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "36.126607"
+    },
+    "Durban": {
+      "lon": "31.035125",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Durban",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-29.855744"
+    },
+    "Kobe": {
+      "lon": "-106.309379",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Kobe",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "39.134838"
+    },
+    "Savannah": {
+      "lon": "-81.090719",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Savannah",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "32.080780"
+    },
+    "Kolkata": {
+      "lon": "88.346160",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Kolkata",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "22.526670"
+    },
+    "Rabat": {
+      "lon": "-6.841654",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Rabat",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "34.020885"
+    },
+    "Miami": {
+      "lon": "-80.237419",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Miami",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "25.728985"
+    },
+    "Khor_Fakkan": {
+      "lon": "56.350330",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Khor Fakkan",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "25.351101"
+    },
+    "Dakar": {
+      "lon": "-17.451910",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Dakar",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "14.686670"
+    },
+    "Shanghai": {
+      "lon": "121.472618",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Shanghai",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "31.247709"
+    },
+    "Ho_Chi_Minh_City": {
+      "lon": "106.662498",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Ho Chi Minh City",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "10.759180"
+    },
+    "Salalah": {
+      "lon": "54.148039",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Salalah",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "17.095866"
+    },
+    "Colombo": {
+      "lon": "79.872200",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Colombo",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "6.927200"
+    },
+    "Perth": {
+      "lon": "115.857239",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Perth",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-31.953020"
+    },
+    "Valparaiso": {
+      "lon": "-86.492961",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Valparaiso",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "30.511665"
+    },
+    "Honolulu": {
+      "lon": "-157.857614",
+      "b": {
+        "berthingFee": 7100,
+        "dailyFee": 87,
+        "unloadFee": 840
+      },
+      "s": {
+        "berthingFee": 6300,
+        "dailyFee": 87,
+        "unloadFee": 840
+      },
+      "vvb": {
+        "berthingFee": 8200,
+        "dailyFee": 87,
+        "unloadFee": 840
+      },
+      "name": "Honolulu",
+      "vb": {
+        "berthingFee": 7600,
+        "dailyFee": 87,
+        "unloadFee": 840
+      },
+      "m": {
+        "berthingFee": 6500,
+        "dailyFee": 87,
+        "unloadFee": 840
+      },
+      "lat": "21.304770"
+    },
+    "Lianyungang": {
+      "lon": "119.141441",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Lianyungang",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "34.599548"
+    },
+    "Dalian": {
+      "lon": "121.576523",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Dalian",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "38.943810"
+    },
+    "Anchorage": {
+      "lon": "-149.858384",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Anchorage",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "61.217550"
+    },
+    "Bangkok": {
+      "lon": "100.504822",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Bangkok",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "13.753330"
+    },
+    "Long_Beach": {
+      "lon": "-118.192399",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Long Beach",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "33.766725"
+    },
+    "Ambarli": {
+      "lon": "28.710375",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Ambarli",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "40.976615"
+    },
+    "San_Francisco": {
+      "lon": "-122.419644",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "San Francisco",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "37.777125"
+    },
+    "Hongkong": {
+      "lon": "114.138443",
+      "b": {
+        "berthingFee": 8000,
+        "dailyFee": 100,
+        "unloadFee": 960
+      },
+      "s": {
+        "berthingFee": 8000,
+        "dailyFee": 100,
+        "unloadFee": 960
+      },
+      "vvb": {
+        "berthingFee": 9900,
+        "dailyFee": 100,
+        "unloadFee": 960
+      },
+      "name": "Hongkong",
+      "vb": {
+        "berthingFee": 9000,
+        "dailyFee": 100,
+        "unloadFee": 960
+      },
+      "m": {
+        "berthingFee": 7300,
+        "dailyFee": 100,
+        "unloadFee": 960
+      },
+      "lat": "22.358100"
+    },
+    "Port_Klang": {
+      "lon": "101.408684",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Port Klang",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "2.979810"
+    },
+    "Santos": {
+      "lon": "-46.328099",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Santos",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-23.961694"
+    },
+    "Port_Said": {
+      "lon": "32.284458",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Port Said",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "31.259279"
+    },
+    "Qingdao": {
+      "lon": "120.342720",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Qingdao",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "36.087509"
+    },
+    "Antwerp": {
+      "lon": "4.397710",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Antwerp",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "51.222085"
+    },
+    "Shenzhen": {
+      "lon": "114.112556",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Shenzhen",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "22.546789"
+    },
+    "Gioia_Tauro": {
+      "lon": "15.898575",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Gioia Tauro",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "38.426790"
+    },
+    "Quebec": {
+      "lon": "-71.219359",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Quebec",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "46.812749"
+    },
+    "Boston": {
+      "lon": "-71.056699",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Boston",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "42.358635"
+    },
+    "Hamburg": {
+      "lon": "9.992455",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Hamburg",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "53.553345"
+    },
+    "Recife": {
+      "lon": "-34.872004",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Recife",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-8.055384"
+    },
+    "Felixstowe": {
+      "lon": "1.342465",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Felixstowe",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "51.961370"
+    },
+    "Port_Sudan": {
+      "lon": "37.219688",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Port Sudan",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "19.615700"
+    },
+    "Laem_Chabang": {
+      "lon": "99.982330",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Laem Chabang",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "13.207770"
+    },
+    "Adelaide": {
+      "lon": "138.599884",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Adelaide",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-34.926102"
+    },
+    "Toamasina": {
+      "lon": "49.400261",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Toamasina",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-18.146049"
+    },
+    "Cape_Town": {
+      "lon": "18.421970",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Cape Town",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-33.919104"
+    },
+    "Bremerhaven": {
+      "lon": "8.582042",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Bremerhaven",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "53.544301"
+    },
+    "Yingkou": {
+      "lon": "122.277618",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Yingkou",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "40.686409"
+    },
+    "Tokio": {
+      "lon": "-98.815609",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Tokio",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "47.922160"
+    },
+    "Manzanillo": {
+      "lon": "-104.308179",
+      "b": {
+        "berthingFee": 7500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "s": {
+        "berthingFee": 6500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "vvb": {
+        "berthingFee": 8500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "name": "Manzanillo",
+      "vb": {
+        "berthingFee": 8000,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "m": {
+        "berthingFee": 6900,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "lat": "19.085820"
+    },
+    "Reykjavik": {
+      "lon": "-21.933989",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Reykjavik",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "64.147415"
+    },
+    "Sydney": {
+      "lon": "151.206955",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Sydney",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-33.869629"
+    },
+    "Antofagasta": {
+      "lon": "-70.392749",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Antofagasta",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-23.631469"
+    },
+    "Osaka": {
+      "lon": "135.50323",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Osaka",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "34.677471"
+    },
+    "Nagoya": {
+      "lon": "136.926224",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Nagoya",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "35.149860"
+    },
+    "Aden": {
+      "lon": "-77.543159",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Aden",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "38.659142"
+    },
+    "Lagos": {
+      "lon": "3.423480",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Lagos",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "6.439180"
+    },
+    "Jakarta": {
+      "lon": "106.827820",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Jakarta",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-6.171440"
+    },
+    "Bandar-Abbas": {
+      "lon": "56.274330",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Bandar Abbas",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "27.187170"
+    },
+    "Surabaya": {
+      "lon": "112.746689",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Surabaya",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "-7.258570"
+    },
+    "Manila": {
+      "lon": "121.005890",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Manila",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "14.609620"
+    },
+    "Jeddah": {
+      "lon": "39.182860",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Jeddah",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "21.481680"
+    },
+    "Rotterdam": {
+      "lon": "4.478460",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Rotterdam",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "51.922820"
+    },
+    "Murmansk": {
+      "lon": "33.086850",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Murmansk",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "68.972790"
+    },
+    "Bergen": {
+      "lon": "5.332750",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Bergen",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "60.390705"
+    },
+    "Singapore": {
+      "lon": "103.853256",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Singapore",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "1.293780"
+    },
+    "Vancouver": {
+      "lon": "-123.114034",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Vancouver",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "49.260440"
+    },
+    "Oakland": {
+      "lon": "-122.273024",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Oakland",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "37.805065"
+    },
+    "Cartagena": {
+      "lon": "-75.505699",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Cartagena",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "10.387060"
+    },
+    "Auckland": {
+      "lon": "-119.104575",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Auckland",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "36.597755"
+    },
+    "Los_Angeles": {
+      "lon": "-118.245319",
+      "b": {
+        "berthingFee": 12000,
+        "dailyFee": 150,
+        "unloadFee": 1400
+      },
+      "s": {
+        "berthingFee": 9360,
+        "dailyFee": 150,
+        "unloadFee": 1400
+      },
+      "vvb": {
+        "berthingFee": 16000,
+        "dailyFee": 150,
+        "unloadFee": 1400
+      },
+      "name": "Los Angeles",
+      "vb": {
+        "berthingFee": 14000,
+        "dailyFee": 150,
+        "unloadFee": 1400
+      },
+      "m": {
+        "berthingFee": 10000,
+        "dailyFee": 150,
+        "unloadFee": 1400
+      },
+      "lat": "34.053490"
+    },
+    "Yokohama": {
+      "lon": "139.595123",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Yokohama",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "35.452702"
+    },
+    "Acapulco": {
+      "lon": "-99.906969",
+      "b": {
+        "berthingFee": 7500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "s": {
+        "berthingFee": 6500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "vvb": {
+        "berthingFee": 8500,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "name": "Acapulco",
+      "vb": {
+        "berthingFee": 8000,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "m": {
+        "berthingFee": 6900,
+        "dailyFee": 80,
+        "unloadFee": 770
+      },
+      "lat": "16.850875"
+    },
+    "New_York": {
+      "lon": "-74.007118",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "New York",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "40.714550"
+    },
+    "Valencia": {
+      "lon": "-0.376913",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Valencia",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "39.468791"
+    },
+    "Xiamen": {
+      "lon": "118.079117",
+      "b": {
+        "berthingFee": 10200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "s": {
+        "berthingFee": 9200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "vvb": {
+        "berthingFee": 12200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "name": "Xiamen",
+      "vb": {
+        "berthingFee": 11200,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "m": {
+        "berthingFee": 9850,
+        "dailyFee": 140,
+        "unloadFee": 1340
+      },
+      "lat": "24.452520"
+    }
+  },
+  "containertypes": {
+    "1": {
+      "desc": "20ft normal",
+      "type": "1"
+    },
+    "2": {
+      "desc": "40ft normal",
+      "type": "2"
+    },
+    "3": {
+      "desc": "20ft reefer",
+      "type": "3"
+    },
+    "4": {
+      "desc": "40ft reefer",
+      "type": "4"
+    }
+  },
+  "customers": {
+    "APPLE": {
+      "id": 3556154,
+      "name": "APPLE"
+    },
+    "GOOGLE": {
+      "id": 3556155,
+      "name": "GOOGLE"
+    },
+    "MICROSOFT": {
+      "id": 3556156,
+      "name": "MICROSOFT"
+    },
+    "SAP": {
+      "id": 3556152,
+      "name": "SAP"
+    },
+    "IBM": {
+      "id": 3556151,
+      "name": "IBM"
+    },
+    "HP": {
+      "id": 3556153,
+      "name": "HP"
+    }
+  },
+  "regions": [
+    {
+      "id": 3556157,
+      "name": "East Asia"
+    },
+    {
+      "id": 3556158,
+      "name": "North America"
+    },
+    {
+      "id": 3556159,
+      "name": "West America"
+    },
+    {
+      "id": 3556160,
+      "name": "Europe"
+    },
+    {
+      "id": 3556161,
+      "name": "Africa"
+    },
+    {
+      "id": 3556162,
+      "name": "South America"
+    },
+    {
+      "id": 3556163,
+      "name": "South Pacific"
+    },
+    {
+      "id": 3556164,
+      "name": "Middle East"
+    }
+  ],
+  "vesseltypes": {
+    "b": {
+      "id": 3556170,
+      "name": "b",
+      "size": 8000,
+      "speed": 800,
+      "oilComsumption": 600,
+      "crewsize": 18,
+      "shipprice": 70000000,
+      "costContainerPerKM10000": 100,
+      "description": "Post panamax large"
+    },
+    "s": {
+      "id": 3556166,
+      "name": "s",
+      "size": 4000,
+      "speed": 1000,
+      "oilComsumption": 200,
+      "crewsize": 10,
+      "shipprice": 35000000,
+      "costContainerPerKM10000": 120,
+      "description": "Panamax"
+    },
+    "vvb": {
+      "id": 3556174,
+      "name": "vvb",
+      "size": 14000,
+      "speed": 700,
+      "oilComsumption": 500,
+      "crewsize": 25,
+      "shipprice": 100000000,
+      "costContainerPerKM10000": 80,
+      "description": "Ultra large vessels"
+    },
+    "vb": {
+      "id": 3556172,
+      "name": "vb",
+      "size": 10000,
+      "speed": 1000,
+      "oilComsumption": 650,
+      "crewsize": 20,
+      "shipprice": 80000000,
+      "costContainerPerKM10000": 90,
+      "description": "New Panamax"
+    },
+    "m": {
+      "id": 3556168,
+      "name": "m",
+      "size": 6000,
+      "speed": 900,
+      "oilComsumption": 250,
+      "crewsize": 15,
+      "shipprice": 50000000,
+      "costContainerPerKM10000": 110,
+      "description": "Post panamax"
+    }
+  },
+  "shuntpoints": {
+    "Meizhou": {
+      "lon": "116.122469",
+      "name": "Meizhou",
+      "associatedPort": "Xiamen",
+      "lat": "24.288384"
+    },
+    "Marrakesh": {
+      "lon": "-8.0",
+      "name": "Marrakesh",
+      "associatedPort": "Rabat",
+      "lat": "31.6333333"
+    },
+    "Balboa": {
+      "lon": "-117.901131",
+      "name": "Balboa",
+      "associatedPort": "Balboa",
+      "lat": "33.601349"
+    },
+    "Shenyang": {
+      "lon": "123.43147",
+      "name": "Shenyang",
+      "associatedPort": "Dalian",
+      "lat": "41.80572"
+    },
+    "Monchegorsk": {
+      "lon": "32.9150727",
+      "name": "Monchegorsk",
+      "associatedPort": "Murmansk",
+      "lat": "67.94131879999999"
+    },
+    "Nantou": {
+      "lon": "120.6833333",
+      "name": "Nantou",
+      "associatedPort": "Kaohsiung",
+      "lat": "23.9166667"
+    },
+    "Daejeon": {
+      "lon": "127.3845475",
+      "name": "Daejeon",
+      "associatedPort": "Pusan",
+      "lat": "36.3504119"
+    },
+    "Dubai": {
+      "lon": "55.308650",
+      "name": "Dubai",
+      "associatedPort": "Dubai",
+      "lat": "25.269445"
+    },
+    "Montevideo": {
+      "lon": "-56.165440",
+      "name": "Montevideo",
+      "associatedPort": "Montevideo",
+      "lat": "-34.880901"
+    },
+    "Tay_Ninh": {
+      "lon": "106.1192802",
+      "name": "Tay_Ninh",
+      "associatedPort": "Ho_Chi_Minh_City",
+      "lat": "11.3675415"
+    },
+    "Tsukuba": {
+      "lon": "140.0766423",
+      "name": "Tsukuba",
+      "associatedPort": "Tokio",
+      "lat": "36.0834857"
+    },
+    "Gent": {
+      "lon": "3.73038",
+      "name": "Gent",
+      "associatedPort": "Antwerp",
+      "lat": "51.053468"
+    },
+    "Annaka": {
+      "lon": "138.8873239",
+      "name": "Annaka",
+      "associatedPort": "Tokio",
+      "lat": "36.3263676"
+    },
+    "Durban": {
+      "lon": "31.035125",
+      "name": "Durban",
+      "associatedPort": "Durban",
+      "lat": "-29.855744"
+    },
+    "Savannah": {
+      "lon": "-81.090719",
+      "name": "Savannah",
+      "associatedPort": "Savannah",
+      "lat": "32.080780"
+    },
+    "Manises": {
+      "lon": "-0.4565816",
+      "name": "Manises",
+      "associatedPort": "Valencia",
+      "lat": "39.4896574"
+    },
+    "Miami": {
+      "lon": "-80.237419",
+      "name": "Miami",
+      "associatedPort": "Miami",
+      "lat": "25.728985"
+    },
+    "Kuala_Lumpur": {
+      "lon": "101.686855",
+      "name": "Kuala_Lumpur",
+      "associatedPort": "Port_Klang",
+      "lat": "3.139003"
+    },
+    "Berlin": {
+      "lon": "13.4060912",
+      "name": "Berlin",
+      "associatedPort": "Hamburg",
+      "lat": "52.519171"
+    },
+    "Salalah": {
+      "lon": "54.148039",
+      "name": "Salalah",
+      "associatedPort": "Salalah",
+      "lat": "17.095866"
+    },
+    "Jonggol": {
+      "lon": "107.046428",
+      "name": "Jonggol",
+      "associatedPort": "Jakarta",
+      "lat": "-6.468699"
+    },
+    "Nanping": {
+      "lon": "118.177708",
+      "name": "Nanping",
+      "associatedPort": "Xiamen",
+      "lat": "26.641769"
+    },
+    "Apatity": {
+      "lon": "33.4131997",
+      "name": "Apatity",
+      "associatedPort": "Murmansk",
+      "lat": "67.57589329999999"
+    },
+    "Hollen": {
+      "lon": "8.7051492",
+      "name": "Hollen",
+      "associatedPort": "Bremerhaven",
+      "lat": "53.4235894"
+    },
+    "Anchorage": {
+      "lon": "-149.858384",
+      "name": "Anchorage",
+      "associatedPort": "Anchorage",
+      "lat": "61.217550"
+    },
+    "Long_Beach": {
+      "lon": "-118.192399",
+      "name": "Long_Beach",
+      "associatedPort": "Long_Beach",
+      "lat": "33.766725"
+    },
+    "Nabari": {
+      "lon": "136.1082959",
+      "name": "Nabari",
+      "associatedPort": "Osaka",
+      "lat": "34.6276593"
+    },
+    "Holste": {
+      "lon": "8.8330556",
+      "name": "Holste",
+      "associatedPort": "Bremerhaven",
+      "lat": "53.3666667"
+    },
+    "Ambarli": {
+      "lon": "28.710375",
+      "name": "Ambarli",
+      "associatedPort": "Ambarli",
+      "lat": "40.976615"
+    },
+    "Port_Klang": {
+      "lon": "101.408684",
+      "name": "Port_Klang",
+      "associatedPort": "Port_Klang",
+      "lat": "2.979810"
+    },
+    "Huizhou": {
+      "lon": "114.416196",
+      "name": "Huizhou",
+      "associatedPort": "Shenzhen",
+      "lat": "23.111847"
+    },
+    "Chaoyang": {
+      "lon": "116.443188",
+      "name": "Chaoyang",
+      "associatedPort": "Yingkou",
+      "lat": "39.921034"
+    },
+    "Longyan": {
+      "lon": "117.017705",
+      "name": "Longyan",
+      "associatedPort": "Xiamen",
+      "lat": "25.075129"
+    },
+    "Antipolo": {
+      "lon": "121.1244847",
+      "name": "Antipolo",
+      "associatedPort": "Manila",
+      "lat": "14.6254827"
+    },
+    "Port_Said": {
+      "lon": "32.284458",
+      "name": "Port_Said",
+      "associatedPort": "Port_Said",
+      "lat": "31.259279"
+    },
+    "Santos": {
+      "lon": "-46.328099",
+      "name": "Santos",
+      "associatedPort": "Santos",
+      "lat": "-23.961694"
+    },
+    "Ringstedt": {
+      "lon": "8.8529924",
+      "name": "Ringstedt",
+      "associatedPort": "Bremerhaven",
+      "lat": "53.5606966"
+    },
+    "Minoo": {
+      "lon": "135.4704626",
+      "name": "Minoo",
+      "associatedPort": "Kobe",
+      "lat": "34.8269301"
+    },
+    "Elmswell": {
+      "lon": "0.9125110000000001",
+      "name": "Elmswell",
+      "associatedPort": "Felixstowe",
+      "lat": "52.236946"
+    },
+    "Recife": {
+      "lon": "-34.872004",
+      "name": "Recife",
+      "associatedPort": "Recife",
+      "lat": "-8.055384"
+    },
+    "Liaoyang": {
+      "lon": "123.172838",
+      "name": "Liaoyang",
+      "associatedPort": "Dalian",
+      "lat": "41.269493"
+    },
+    "Potenza": {
+      "lon": "15.8022214",
+      "name": "Potenza",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "40.6372425"
+    },
+    "Adelaide": {
+      "lon": "138.599884",
+      "name": "Adelaide",
+      "associatedPort": "Adelaide",
+      "lat": "-34.926102"
+    },
+    "Toamasina": {
+      "lon": "49.400261",
+      "name": "Toamasina",
+      "associatedPort": "Toamasina",
+      "lat": "-18.146049"
+    },
+    "Halle": {
+      "lon": "11.96864",
+      "name": "Halle",
+      "associatedPort": "Hamburg",
+      "lat": "51.47971"
+    },
+    "Zibo": {
+      "lon": "118.055007",
+      "name": "Zibo",
+      "associatedPort": "Qingdao",
+      "lat": "36.813497"
+    },
+    "Rome": {
+      "lon": "12.4942486",
+      "name": "Rome",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "41.8905198"
+    },
+    "Fyllimgsdalen": {
+      "lon": "5.2884297",
+      "name": "Fyllimgsdalen",
+      "associatedPort": "Bergen",
+      "lat": "60.3461034"
+    },
+    "Eindhoven": {
+      "lon": "5.4697225",
+      "name": "Eindhoven",
+      "associatedPort": "Rotterdam",
+      "lat": "51.44164199999999"
+    },
+    "Malabe": {
+      "lon": "79.95472219999999",
+      "name": "Malabe",
+      "associatedPort": "Colombo",
+      "lat": "6.9036111"
+    },
+    "Douliou": {
+      "lon": "120.5438889",
+      "name": "Douliou",
+      "associatedPort": "Kaohsiung",
+      "lat": "23.7075"
+    },
+    "Nantong": {
+      "lon": "120.894332",
+      "name": "Nantong",
+      "associatedPort": "Shanghai",
+      "lat": "31.980184"
+    },
+    "Kato": {
+      "lon": "-77.83242059999999",
+      "name": "Kato",
+      "associatedPort": "Kobe",
+      "lat": "41.0866282"
+    },
+    "Kotikawatta": {
+      "lon": "79.9304633",
+      "name": "Kotikawatta",
+      "associatedPort": "Colombo",
+      "lat": "6.931725300000001"
+    },
+    "Changzhou": {
+      "lon": "119.974454",
+      "name": "Changzhou",
+      "associatedPort": "Shanghai",
+      "lat": "31.810077"
+    },
+    "Zhongshan": {
+      "lon": "113.392795",
+      "name": "Zhongshan",
+      "associatedPort": "Guangzhou",
+      "lat": "22.516686"
+    },
+    "Dongguan": {
+      "lon": "113.751765",
+      "name": "Dongguan",
+      "associatedPort": "Shenzhen",
+      "lat": "23.020536"
+    },
+    "Fes": {
+      "lon": "-5.0",
+      "name": "Fes",
+      "associatedPort": "Rabat",
+      "lat": "34.0333333"
+    },
+    "Marikina": {
+      "lon": "121.1028546",
+      "name": "Marikina",
+      "associatedPort": "Manila",
+      "lat": "14.65073"
+    },
+    "Ningde": {
+      "lon": "119.547933",
+      "name": "Ningde",
+      "associatedPort": "Xiamen",
+      "lat": "26.665617"
+    },
+    "Vancouver": {
+      "lon": "-123.114034",
+      "name": "Vancouver",
+      "associatedPort": "Vancouver",
+      "lat": "49.260440"
+    },
+    "Cartagena": {
+      "lon": "-75.505699",
+      "name": "Cartagena",
+      "associatedPort": "Cartagena",
+      "lat": "10.387060"
+    },
+    "Asago": {
+      "lon": "134.8531501",
+      "name": "Asago",
+      "associatedPort": "Kobe",
+      "lat": "35.3396654"
+    },
+    "Auckland": {
+      "lon": "-119.104575",
+      "name": "Auckland",
+      "associatedPort": "Auckland",
+      "lat": "36.597755"
+    },
+    "Hangzhou": {
+      "lon": "120.155069",
+      "name": "Hangzhou",
+      "associatedPort": "Shanghai",
+      "lat": "30.274089"
+    },
+    "Bengbu": {
+      "lon": "117.389719",
+      "name": "Bengbu",
+      "associatedPort": "Lianyungang",
+      "lat": "32.916287"
+    },
+    "Motosu": {
+      "lon": "136.6787656",
+      "name": "Motosu",
+      "associatedPort": "Nagoya",
+      "lat": "35.4830469"
+    },
+    "Rissani": {
+      "lon": "-4.274999999999999",
+      "name": "Rissani",
+      "associatedPort": "Rabat",
+      "lat": "31.2858333"
+    },
+    "Bahia_Blanca": {
+      "lon": "-62.267879",
+      "name": "Bahia_Blanca",
+      "associatedPort": "Bahia_Blanca",
+      "lat": "-38.719554"
+    },
+    "Zaragoza": {
+      "lon": "-0.8765379000000001",
+      "name": "Zaragoza",
+      "associatedPort": "Algeciras",
+      "lat": "41.6562873"
+    },
+    "Legok": {
+      "lon": "106.601664",
+      "name": "Legok",
+      "associatedPort": "Jakarta",
+      "lat": "-6.292148"
+    },
+    "PanJin": {
+      "lon": "122.070714",
+      "name": "PanJin",
+      "associatedPort": "Yingkou",
+      "lat": "41.119997"
+    },
+    "Maputo": {
+      "lon": "32.580650",
+      "name": "Maputo",
+      "associatedPort": "Maputo",
+      "lat": "-25.968100"
+    },
+    "Nagano": {
+      "lon": "138.1942432",
+      "name": "Nagano",
+      "associatedPort": "Tokio",
+      "lat": "36.6485496"
+    },
+    "Boma": {
+      "lon": "-85.683269",
+      "name": "Boma",
+      "associatedPort": "Boma",
+      "lat": "36.126607"
+    },
+    "Putrajaya": {
+      "lon": "101.696445",
+      "name": "Putrajaya",
+      "associatedPort": "Port_Klang",
+      "lat": "2.926361"
+    },
+    "Shangqiu": {
+      "lon": "115.65637",
+      "name": "Shangqiu",
+      "associatedPort": "Lianyungang",
+      "lat": "34.414172"
+    },
+    "Cordova": {
+      "lon": "-4.7791517",
+      "name": "Cordova",
+      "associatedPort": "Valencia",
+      "lat": "37.88472670000001"
+    },
+    "Osuna": {
+      "lon": "-5.1027843",
+      "name": "Osuna",
+      "associatedPort": "Algeciras",
+      "lat": "37.2370551"
+    },
+    "Mino": {
+      "lon": "-8.2063889",
+      "name": "Mino",
+      "associatedPort": "Nagoya",
+      "lat": "43.3475"
+    },
+    "Pizzo": {
+      "lon": "16.164345",
+      "name": "Pizzo",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "38.7357145"
+    },
+    "Kovdor": {
+      "lon": "30.4856",
+      "name": "Kovdor",
+      "associatedPort": "Murmansk",
+      "lat": "67.5683"
+    },
+    "Ulsan": {
+      "lon": "129.3113596",
+      "name": "Ulsan",
+      "associatedPort": "Pusan",
+      "lat": "35.5383773"
+    },
+    "Shaoxing": {
+      "lon": "120.586109",
+      "name": "Shaoxing",
+      "associatedPort": "Ningbo",
+      "lat": "29.995762"
+    },
+    "Valparaiso": {
+      "lon": "-86.492961",
+      "name": "Valparaiso",
+      "associatedPort": "Valparaiso",
+      "lat": "30.511665"
+    },
+    "Honolulu": {
+      "lon": "-157.857614",
+      "name": "Honolulu",
+      "associatedPort": "Honolulu",
+      "lat": "21.304770"
+    },
+    "Kuala_Langat": {
+      "lon": "101.5702813",
+      "name": "Kuala_Langat",
+      "associatedPort": "Port_Klang",
+      "lat": "2.8388413"
+    },
+    "Pasig": {
+      "lon": "121.0851097",
+      "name": "Pasig",
+      "associatedPort": "Manila",
+      "lat": "14.5763768"
+    },
+    "Paola": {
+      "lon": "16.04056",
+      "name": "Paola",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "39.3608773"
+    },
+    "Rushmere": {
+      "lon": "-76.67634550000001",
+      "name": "Rushmere",
+      "associatedPort": "Felixstowe",
+      "lat": "37.0668149"
+    },
+    "Tonghua": {
+      "lon": "125.939697",
+      "name": "Tonghua",
+      "associatedPort": "Dalian",
+      "lat": "41.728401"
+    },
+    "Khon_Kaen": {
+      "lon": "102.6216211",
+      "name": "Khon_Kaen",
+      "associatedPort": "Bangkok",
+      "lat": "15.9717357"
+    },
+    "San_Francisco": {
+      "lon": "-122.419644",
+      "name": "San_Francisco",
+      "associatedPort": "San_Francisco",
+      "lat": "37.777125"
+    },
+    "Beijing": {
+      "lon": "116.407413",
+      "name": "Beijing",
+      "associatedPort": "Tianjin",
+      "lat": "39.904214"
+    },
+    "Surin": {
+      "lon": "103.7289167",
+      "name": "Surin",
+      "associatedPort": "Bangkok",
+      "lat": "15.1696104"
+    },
+    "Jilin": {
+      "lon": "125.326065",
+      "name": "Jilin",
+      "associatedPort": "Yingkou",
+      "lat": "43.896082"
+    },
+    "Nanjing": {
+      "lon": "118.796877",
+      "name": "Nanjing",
+      "associatedPort": "Shanghai",
+      "lat": "32.060255"
+    },
+    "Chifeng": {
+      "lon": "118.886856",
+      "name": "Chifeng",
+      "associatedPort": "Dalian",
+      "lat": "42.257817"
+    },
+    "Boston": {
+      "lon": "-71.056699",
+      "name": "Boston",
+      "associatedPort": "Boston",
+      "lat": "42.358635"
+    },
+    "Laem_Chabang": {
+      "lon": "99.982330",
+      "name": "Laem_Chabang",
+      "associatedPort": "Laem_Chabang",
+      "lat": "13.207770"
+    },
+    "Seville": {
+      "lon": "-5.996295099999999",
+      "name": "Seville",
+      "associatedPort": "Algeciras",
+      "lat": "37.38263999999999"
+    },
+    "Ulm": {
+      "lon": "9.979349000000001",
+      "name": "Ulm",
+      "associatedPort": "Hamburg",
+      "lat": "48.4042981"
+    },
+    "Loxstedt": {
+      "lon": "8.647307999999999",
+      "name": "Loxstedt",
+      "associatedPort": "Bremerhaven",
+      "lat": "53.4724634"
+    },
+    "Tanba": {
+      "lon": "135.0358536",
+      "name": "Tanba",
+      "associatedPort": "Kobe",
+      "lat": "35.1771001"
+    },
+    "Lishui": {
+      "lon": "119.922796",
+      "name": "Lishui",
+      "associatedPort": "Ningbo",
+      "lat": "28.46763"
+    },
+    "Xuzhou": {
+      "lon": "117.284067",
+      "name": "Xuzhou",
+      "associatedPort": "Lianyungang",
+      "lat": "34.20475"
+    },
+    "Aden": {
+      "lon": "-77.543159",
+      "name": "Aden",
+      "associatedPort": "Aden",
+      "lat": "38.659142"
+    },
+    "Lagos": {
+      "lon": "3.423480",
+      "name": "Lagos",
+      "associatedPort": "Lagos",
+      "lat": "6.439180"
+    },
+    "Baoding": {
+      "lon": "115.464806",
+      "name": "Baoding",
+      "associatedPort": "Tianjin",
+      "lat": "38.873891"
+    },
+    "Suzhou": {
+      "lon": "120.585316",
+      "name": "Suzhou",
+      "associatedPort": "Shanghai",
+      "lat": "31.298886"
+    },
+    "Jeddah": {
+      "lon": "39.182860",
+      "name": "Jeddah",
+      "associatedPort": "Jeddah",
+      "lat": "21.481680"
+    },
+    "Sidoarjo": {
+      "lon": "112.7188243",
+      "name": "Sidoarjo",
+      "associatedPort": "Surabaya",
+      "lat": "-7.452055000000001"
+    },
+    "Mechelen": {
+      "lon": "4.477657",
+      "name": "Mechelen",
+      "associatedPort": "Antwerp",
+      "lat": "51.026909"
+    },
+    "Yokohama": {
+      "lon": "139.595123",
+      "name": "Yokohama",
+      "associatedPort": "Yokohama",
+      "lat": "35.452702"
+    },
+    "Birobidzhan": {
+      "lon": "132.933333",
+      "name": "Birobidzhan",
+      "associatedPort": "Vladivostok",
+      "lat": "48.783333"
+    },
+    "La_Libertad": {
+      "lon": "-78.284615",
+      "name": "La_Libertad",
+      "associatedPort": "La_Libertad",
+      "lat": "-7.961410"
+    },
+    "Daegu": {
+      "lon": "128.601445",
+      "name": "Daegu",
+      "associatedPort": "Pusan",
+      "lat": "35.8714354"
+    },
+    "Kolkata": {
+      "lon": "88.346160",
+      "name": "Kolkata",
+      "associatedPort": "Kolkata",
+      "lat": "22.526670"
+    },
+    "Bao_Loc": {
+      "lon": "107.778",
+      "name": "Bao_Loc",
+      "associatedPort": "Ho_Chi_Minh_City",
+      "lat": "11.5306"
+    },
+    "Yamagata": {
+      "lon": "140.3396017",
+      "name": "Yamagata",
+      "associatedPort": "Nagoya",
+      "lat": "38.2554388"
+    },
+    "Madiun": {
+      "lon": "111.513702",
+      "name": "Madiun",
+      "associatedPort": "Surabaya",
+      "lat": "-7.629714000000001"
+    },
+    "Khor_Fakkan": {
+      "lon": "56.350330",
+      "name": "Khor_Fakkan",
+      "associatedPort": "Khor_Fakkan",
+      "lat": "25.351101"
+    },
+    "Madrid": {
+      "lon": "-3.700345399999999",
+      "name": "Madrid",
+      "associatedPort": "Algeciras",
+      "lat": "40.4166909"
+    },
+    "Hasselt": {
+      "lon": "5.332479999999999",
+      "name": "Hasselt",
+      "associatedPort": "Antwerp",
+      "lat": "50.93069"
+    },
+    "Perth": {
+      "lon": "115.857239",
+      "name": "Perth",
+      "associatedPort": "Perth",
+      "lat": "-31.953020"
+    },
+    "Frankfurt": {
+      "lon": "8.6821267",
+      "name": "Frankfurt",
+      "associatedPort": "Hamburg",
+      "lat": "50.1109221"
+    },
+    "Cangzhou": {
+      "lon": "116.838835",
+      "name": "Cangzhou",
+      "associatedPort": "Tianjin",
+      "lat": "38.30447700000001"
+    },
+    "Quzhou": {
+      "lon": "118.874375",
+      "name": "Quzhou",
+      "associatedPort": "Ningbo",
+      "lat": "28.93581"
+    },
+    "Zhangjiakou": {
+      "lon": "114.887543",
+      "name": "Zhangjiakou",
+      "associatedPort": "Tianjin",
+      "lat": "40.824418"
+    },
+    "Woodbridge": {
+      "lon": "-77.2497049",
+      "name": "Woodbridge",
+      "associatedPort": "Felixstowe",
+      "lat": "38.6581722"
+    },
+    "Jhuci": {
+      "lon": "120.6084832",
+      "name": "Jhuci",
+      "associatedPort": "Kaohsiung",
+      "lat": "23.5049724"
+    },
+    "Jinan": {
+      "lon": "116.994917",
+      "name": "Jinan",
+      "associatedPort": "Qingdao",
+      "lat": "36.665282"
+    },
+    "Tambun": {
+      "lon": "107.073479",
+      "name": "Tambun",
+      "associatedPort": "Jakarta",
+      "lat": "-6.2512617"
+    },
+    "Linyi": {
+      "lon": "118.356448",
+      "name": "Linyi",
+      "associatedPort": "Qingdao",
+      "lat": "35.104672"
+    },
+    "Kyotanabe": {
+      "lon": "135.7676947",
+      "name": "Kyotanabe",
+      "associatedPort": "Osaka",
+      "lat": "34.8144589"
+    },
+    "Hong_Ngu": {
+      "lon": "105.3950939",
+      "name": "Hong_Ngu",
+      "associatedPort": "Ho_Chi_Minh_City",
+      "lat": "10.8255238"
+    },
+    "Lop_Buri": {
+      "lon": "100.8903099",
+      "name": "Lop_Buri",
+      "associatedPort": "Bangkok",
+      "lat": "15.0499572"
+    },
+    "Quebec": {
+      "lon": "-71.219359",
+      "name": "Quebec",
+      "associatedPort": "Quebec",
+      "lat": "46.812749"
+    },
+    "Zhaoqing": {
+      "lon": "112.465091",
+      "name": "Zhaoqing",
+      "associatedPort": "Guangzhou",
+      "lat": "23.047192"
+    },
+    "Saragossa": {
+      "lon": "-0.8765379000000001",
+      "name": "Saragossa",
+      "associatedPort": "Valencia",
+      "lat": "41.6562873"
+    },
+    "London": {
+      "lon": "-0.128005",
+      "name": "London",
+      "associatedPort": "Felixstowe",
+      "lat": "51.5081289"
+    },
+    "Changchun": {
+      "lon": "125.323542",
+      "name": "Changchun",
+      "associatedPort": "Yingkou",
+      "lat": "43.817084"
+    },
+    "Cape_Town": {
+      "lon": "18.421970",
+      "name": "Cape_Town",
+      "associatedPort": "Cape_Town",
+      "lat": "-33.919104"
+    },
+    "Wuxi": {
+      "lon": "120.303027",
+      "name": "Wuxi",
+      "associatedPort": "Shanghai",
+      "lat": "31.566145"
+    },
+    "Manzanillo": {
+      "lon": "-104.308179",
+      "name": "Manzanillo",
+      "associatedPort": "Manzanillo",
+      "lat": "19.085820"
+    },
+    "Sydney": {
+      "lon": "151.206955",
+      "name": "Sydney",
+      "associatedPort": "Sydney",
+      "lat": "-33.869629"
+    },
+    "Antofagasta": {
+      "lon": "-70.392749",
+      "name": "Antofagasta",
+      "associatedPort": "Antofagasta",
+      "lat": "-23.631469"
+    },
+    "Gampaha": {
+      "lon": "79.99941299999999",
+      "name": "Gampaha",
+      "associatedPort": "Colombo",
+      "lat": "7.089894999999999"
+    },
+    "Leirvik": {
+      "lon": "5.5005327",
+      "name": "Leirvik",
+      "associatedPort": "Bergen",
+      "lat": "59.77976640000001"
+    },
+    "Eldeniya": {
+      "lon": "79.9724245",
+      "name": "Eldeniya",
+      "associatedPort": "Colombo",
+      "lat": "7.014768"
+    },
+    "Depok": {
+      "lon": "106.83",
+      "name": "Depok",
+      "associatedPort": "Jakarta",
+      "lat": "-6.39"
+    },
+    "Sanda": {
+      "lon": "135.225309",
+      "name": "Sanda",
+      "associatedPort": "Kobe",
+      "lat": "34.8895543"
+    },
+    "Utrecht": {
+      "lon": "5.109664899999999",
+      "name": "Utrecht",
+      "associatedPort": "Rotterdam",
+      "lat": "52.0901422"
+    },
+    "Jinhua": {
+      "lon": "119.647445",
+      "name": "Jinhua",
+      "associatedPort": "Ningbo",
+      "lat": "29.079059"
+    },
+    "Cosenza": {
+      "lon": "16.2538921",
+      "name": "Cosenza",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "39.2981996"
+    },
+    "Oakland": {
+      "lon": "-122.273024",
+      "name": "Oakland",
+      "associatedPort": "Oakland",
+      "lat": "37.805065"
+    },
+    "Ena": {
+      "lon": "-151.2460486",
+      "name": "Ena",
+      "associatedPort": "Nagoya",
+      "lat": "60.5647283"
+    },
+    "Saitama": {
+      "lon": "139.6454822",
+      "name": "Saitama",
+      "associatedPort": "Tokio",
+      "lat": "35.8617292"
+    },
+    "Tanjung": {
+      "lon": "100.336227",
+      "name": "Tanjung",
+      "associatedPort": "Tanjung",
+      "lat": "5.410760"
+    },
+    "Dordrecht": {
+      "lon": "4.6734789",
+      "name": "Dordrecht",
+      "associatedPort": "Rotterdam",
+      "lat": "51.797387"
+    },
+    "Weifang": {
+      "lon": "119.16193",
+      "name": "Weifang",
+      "associatedPort": "Qingdao",
+      "lat": "36.706691"
+    },
+    "Conghua": {
+      "lon": "113.586365",
+      "name": "Conghua",
+      "associatedPort": "Shenzhen",
+      "lat": "23.548404"
+    },
+    "Anshan": {
+      "lon": "122.994646",
+      "name": "Anshan",
+      "associatedPort": "Dalian",
+      "lat": "41.108546"
+    },
+    "Seattle": {
+      "lon": "-122.329439",
+      "name": "Seattle",
+      "associatedPort": "Seattle",
+      "lat": "47.603560"
+    },
+    "Veracruz": {
+      "lon": "-96.140754",
+      "name": "Veracruz",
+      "associatedPort": "Veracruz",
+      "lat": "19.195460"
+    },
+    "Kani": {
+      "lon": "20.7690136",
+      "name": "Kani",
+      "associatedPort": "Nagoya",
+      "lat": "52.1383498"
+    },
+    "Nazea": {
+      "lon": "153.098526",
+      "name": "Nazea",
+      "associatedPort": "Nazea",
+      "lat": "-26.412001"
+    },
+    "Dar_es_Salam": {
+      "lon": "-12.341250",
+      "name": "Dar_es_Salam",
+      "associatedPort": "Dar_es_Salam",
+      "lat": "9.968800"
+    },
+    "Ussuriysk": {
+      "lon": "131.95",
+      "name": "Ussuriysk",
+      "associatedPort": "Vladivostok",
+      "lat": "43.8"
+    },
+    "Dakar": {
+      "lon": "-17.451910",
+      "name": "Dakar",
+      "associatedPort": "Dakar",
+      "lat": "14.686670"
+    },
+    "Arnhem": {
+      "lon": "5.898729599999999",
+      "name": "Arnhem",
+      "associatedPort": "Rotterdam",
+      "lat": "51.9851034"
+    },
+    "Meknes": {
+      "lon": "-5.5547222",
+      "name": "Meknes",
+      "associatedPort": "Rabat",
+      "lat": "33.895"
+    },
+    "Hongkong": {
+      "lon": "114.138443",
+      "name": "Hongkong",
+      "associatedPort": "Hongkong",
+      "lat": "22.358100"
+    },
+    "Chiang_Mai": {
+      "lon": "98.6600586",
+      "name": "Chiang_Mai",
+      "associatedPort": "Bangkok",
+      "lat": "18.7964642"
+    },
+    "Dong_Xoai": {
+      "lon": "106.9166667",
+      "name": "Dong_Xoai",
+      "associatedPort": "Ho_Chi_Minh_City",
+      "lat": "11.5333333"
+    },
+    "Rumpin": {
+      "lon": "106.652049",
+      "name": "Rumpin",
+      "associatedPort": "Jakarta",
+      "lat": "-6.441801"
+    },
+    "Caotun": {
+      "lon": "120.7326",
+      "name": "Caotun",
+      "associatedPort": "Kaohsiung",
+      "lat": "23.983"
+    },
+    "Tangshan": {
+      "lon": "118.180407",
+      "name": "Tangshan",
+      "associatedPort": "Tianjin",
+      "lat": "39.630476"
+    },
+    "Port_Sudan": {
+      "lon": "37.219688",
+      "name": "Port_Sudan",
+      "associatedPort": "Port_Sudan",
+      "lat": "19.615700"
+    },
+    "Quezon": {
+      "lon": "121.947311",
+      "name": "Quezon",
+      "associatedPort": "Manila",
+      "lat": "13.9346903"
+    },
+    "Heze": {
+      "lon": "115.480656",
+      "name": "Heze",
+      "associatedPort": "Lianyungang",
+      "lat": "35.23375"
+    },
+    "Shaoguan": {
+      "lon": "113.597522",
+      "name": "Shaoguan",
+      "associatedPort": "Guangzhou",
+      "lat": "24.810403"
+    },
+    "Yulin": {
+      "lon": "109.734556",
+      "name": "Yulin",
+      "associatedPort": "Guangzhou",
+      "lat": "38.285342"
+    },
+    "Emmen": {
+      "lon": "6.8975851",
+      "name": "Emmen",
+      "associatedPort": "Rotterdam",
+      "lat": "52.7858037"
+    },
+    "Rawang": {
+      "lon": "101.5827451",
+      "name": "Rawang",
+      "associatedPort": "Port_Klang",
+      "lat": "3.333378"
+    },
+    "Svobodny": {
+      "lon": "128.1333333",
+      "name": "Svobodny",
+      "associatedPort": "Vladivostok",
+      "lat": "51.40000000000001"
+    },
+    "Taza": {
+      "lon": "-4.0066667",
+      "name": "Taza",
+      "associatedPort": "Rabat",
+      "lat": "34.2238889"
+    },
+    "Kyoto": {
+      "lon": "135.7680294",
+      "name": "Kyoto",
+      "associatedPort": "Osaka",
+      "lat": "35.0116363"
+    },
+    "Sano": {
+      "lon": "139.5931177",
+      "name": "Sano",
+      "associatedPort": "Tokio",
+      "lat": "36.308578"
+    },
+    "Langfang": {
+      "lon": "116.683752",
+      "name": "Langfang",
+      "associatedPort": "Tianjin",
+      "lat": "39.53804700000001"
+    },
+    "Reykjavik": {
+      "lon": "-21.933989",
+      "name": "Reykjavik",
+      "associatedPort": "Reykjavik",
+      "lat": "64.147415"
+    },
+    "Qingyuan": {
+      "lon": "113.056031",
+      "name": "Qingyuan",
+      "associatedPort": "Guangzhou",
+      "lat": "23.681764"
+    },
+    "Bandar-Abbas": {
+      "lon": "56.274330",
+      "name": "Bandar-Abbas",
+      "associatedPort": "Bandar-Abbas",
+      "lat": "27.187170"
+    },
+    "Leuven": {
+      "lon": "4.704327999999999",
+      "name": "Leuven",
+      "associatedPort": "Antwerp",
+      "lat": "50.877571"
+    },
+    "Laiwu": {
+      "lon": "117.676731",
+      "name": "Laiwu",
+      "associatedPort": "Qingdao",
+      "lat": "36.213691"
+    },
+    "Ronda": {
+      "lon": "-5.1664119",
+      "name": "Ronda",
+      "associatedPort": "Algeciras",
+      "lat": "36.7419619"
+    },
+    "Malang": {
+      "lon": "112.626503",
+      "name": "Malang",
+      "associatedPort": "Surabaya",
+      "lat": "-7.981894"
+    },
+    "Turnhout": {
+      "lon": "4.9375577",
+      "name": "Turnhout",
+      "associatedPort": "Antwerp",
+      "lat": "51.3216509"
+    },
+    "Singapore": {
+      "lon": "103.853256",
+      "name": "Singapore",
+      "associatedPort": "Singapore",
+      "lat": "1.293780"
+    },
+    "Los_Angeles": {
+      "lon": "-118.245319",
+      "name": "Los_Angeles",
+      "associatedPort": "Los_Angeles",
+      "lat": "34.053490"
+    },
+    "Acapulco": {
+      "lon": "-99.906969",
+      "name": "Acapulco",
+      "associatedPort": "Acapulco",
+      "lat": "16.850875"
+    },
+    "New_York": {
+      "lon": "-74.007118",
+      "name": "New_York",
+      "associatedPort": "New_York",
+      "lat": "40.714550"
+    }
+  },
+  "depots": {
+    "Saitama": {
+      "lon": "139.6454822",
+      "name": "Saitama",
+      "associatedPort": "Tokio",
+      "lat": "35.8617292"
+    },
+    "Balboa": {
+      "lon": "-117.901131",
+      "name": "Balboa",
+      "associatedPort": "Balboa",
+      "lat": "33.601349"
+    },
+    "Monchegorsk": {
+      "lon": "32.9150727",
+      "name": "Monchegorsk",
+      "associatedPort": "Murmansk",
+      "lat": "67.94131879999999"
+    },
+    "Nantou": {
+      "lon": "120.6833333",
+      "name": "Nantou",
+      "associatedPort": "Kaohsiung",
+      "lat": "23.9166667"
+    },
+    "Tanjung": {
+      "lon": "100.336227",
+      "name": "Tanjung",
+      "associatedPort": "Tanjung",
+      "lat": "5.410760"
+    },
+    "Montevideo": {
+      "lon": "-56.165440",
+      "name": "Montevideo",
+      "associatedPort": "Montevideo",
+      "lat": "-34.880901"
+    },
+    "Dubai": {
+      "lon": "55.308650",
+      "name": "Dubai",
+      "associatedPort": "Dubai",
+      "lat": "25.269445"
+    },
+    "Weifang": {
+      "lon": "119.16193",
+      "name": "Weifang",
+      "associatedPort": "Qingdao",
+      "lat": "36.706691"
+    },
+    "Tay_Ninh": {
+      "lon": "106.1192802",
+      "name": "Tay_Ninh",
+      "associatedPort": "Ho_Chi_Minh_City",
+      "lat": "11.3675415"
+    },
+    "Bahia_Blanca": {
+      "lon": "-62.267879",
+      "name": "Bahia_Blanca",
+      "associatedPort": "Bahia_Blanca",
+      "lat": "-38.719554"
+    },
+    "La_Libertad": {
+      "lon": "-78.284615",
+      "name": "La_Libertad",
+      "associatedPort": "La_Libertad",
+      "lat": "-7.961410"
+    },
+    "Veracruz": {
+      "lon": "-96.140754",
+      "name": "Veracruz",
+      "associatedPort": "Veracruz",
+      "lat": "19.195460"
+    },
+    "Anshan": {
+      "lon": "122.994646",
+      "name": "Anshan",
+      "associatedPort": "Dalian",
+      "lat": "41.108546"
+    },
+    "Seattle": {
+      "lon": "-122.329439",
+      "name": "Seattle",
+      "associatedPort": "Seattle",
+      "lat": "47.603560"
+    },
+    "Maputo": {
+      "lon": "32.580650",
+      "name": "Maputo",
+      "associatedPort": "Maputo",
+      "lat": "-25.968100"
+    },
+    "Kani": {
+      "lon": "20.7690136",
+      "name": "Kani",
+      "associatedPort": "Nagoya",
+      "lat": "52.1383498"
+    },
+    "Nazea": {
+      "lon": "153.098526",
+      "name": "Nazea",
+      "associatedPort": "Nazea",
+      "lat": "-26.412001"
+    },
+    "Dar_es_Salam": {
+      "lon": "-12.341250",
+      "name": "Dar_es_Salam",
+      "associatedPort": "Dar_es_Salam",
+      "lat": "9.968800"
+    },
+    "Boma": {
+      "lon": "-85.683269",
+      "name": "Boma",
+      "associatedPort": "Boma",
+      "lat": "36.126607"
+    },
+    "Durban": {
+      "lon": "31.035125",
+      "name": "Durban",
+      "associatedPort": "Durban",
+      "lat": "-29.855744"
+    },
+    "Daegu": {
+      "lon": "128.601445",
+      "name": "Daegu",
+      "associatedPort": "Pusan",
+      "lat": "35.8714354"
+    },
+    "Savannah": {
+      "lon": "-81.090719",
+      "name": "Savannah",
+      "associatedPort": "Savannah",
+      "lat": "32.080780"
+    },
+    "Kolkata": {
+      "lon": "88.346160",
+      "name": "Kolkata",
+      "associatedPort": "Kolkata",
+      "lat": "22.526670"
+    },
+    "Ussuriysk": {
+      "lon": "131.95",
+      "name": "Ussuriysk",
+      "associatedPort": "Vladivostok",
+      "lat": "43.8"
+    },
+    "Madiun": {
+      "lon": "111.513702",
+      "name": "Madiun",
+      "associatedPort": "Surabaya",
+      "lat": "-7.629714000000001"
+    },
+    "Miami": {
+      "lon": "-80.237419",
+      "name": "Miami",
+      "associatedPort": "Miami",
+      "lat": "25.728985"
+    },
+    "Khor_Fakkan": {
+      "lon": "56.350330",
+      "name": "Khor_Fakkan",
+      "associatedPort": "Khor_Fakkan",
+      "lat": "25.351101"
+    },
+    "Manises": {
+      "lon": "-0.4565816",
+      "name": "Manises",
+      "associatedPort": "Valencia",
+      "lat": "39.4896574"
+    },
+    "Pizzo": {
+      "lon": "16.164345",
+      "name": "Pizzo",
+      "associatedPort": "Gioia_Tauro",
+      "lat": "38.7357145"
+    },
+    "Dakar": {
+      "lon": "-17.451910",
+      "name": "Dakar",
+      "associatedPort": "Dakar",
+      "lat": "14.686670"
+    },
+    "Salalah": {
+      "lon": "54.148039",
+      "name": "Salalah",
+      "associatedPort": "Salalah",
+      "lat": "17.095866"
+    },
+    "Shaoxing": {
+      "lon": "120.586109",
+      "name": "Shaoxing",
+      "associatedPort": "Ningbo",
+      "lat": "29.995762"
+    },
+    "Perth": {
+      "lon": "115.857239",
+      "name": "Perth",
+      "associatedPort": "Perth",
+      "lat": "-31.953020"
+    },
+    "Meknes": {
+      "lon": "-5.5547222",
+      "name": "Meknes",
+      "associatedPort": "Rabat",
+      "lat": "33.895"
+    },
+    "Valparaiso": {
+      "lon": "-86.492961",
+      "name": "Valparaiso",
+      "associatedPort": "Valparaiso",
+      "lat": "30.511665"
+    },
+    "Honolulu": {
+      "lon": "-157.857614",
+      "name": "Honolulu",
+      "associatedPort": "Honolulu",
+      "lat": "21.304770"
+    },
+    "Pasig": {
+      "lon": "121.0851097",
+      "name": "Pasig",
+      "associatedPort": "Manila",
+      "lat": "14.5763768"
+    },
+    "Woodbridge": {
+      "lon": "-77.2497049",
+      "name": "Woodbridge",
+      "associatedPort": "Felixstowe",
+      "lat": "38.6581722"
+    },
+    "Hollen": {
+      "lon": "8.7051492",
+      "name": "Hollen",
+      "associatedPort": "Bremerhaven",
+      "lat": "53.4235894"
+    },
+    "Anchorage": {
+      "lon": "-149.858384",
+      "name": "Anchorage",
+      "associatedPort": "Anchorage",
+      "lat": "61.217550"
+    },
+    "Long_Beach": {
+      "lon": "-118.192399",
+      "name": "Long_Beach",
+      "associatedPort": "Long_Beach",
+      "lat": "33.766725"
+    },
+    "Ambarli": {
+      "lon": "28.710375",
+      "name": "Ambarli",
+      "associatedPort": "Ambarli",
+      "lat": "40.976615"
+    },
+    "San_Francisco": {
+      "lon": "-122.419644",
+      "name": "San_Francisco",
+      "associatedPort": "San_Francisco",
+      "lat": "37.777125"
+    },
+    "Hongkong": {
+      "lon": "114.138443",
+      "name": "Hongkong",
+      "associatedPort": "Hongkong",
+      "lat": "22.358100"
+    },
+    "Port_Klang": {
+      "lon": "101.408684",
+      "name": "Port_Klang",
+      "associatedPort": "Port_Klang",
+      "lat": "2.979810"
+    },
+    "Huizhou": {
+      "lon": "114.416196",
+      "name": "Huizhou",
+      "associatedPort": "Shenzhen",
+      "lat": "23.111847"
+    },
+    "Chiang_Mai": {
+      "lon": "98.6600586",
+      "name": "Chiang_Mai",
+      "associatedPort": "Bangkok",
+      "lat": "18.7964642"
+    },
+    "Chaoyang": {
+      "lon": "116.443188",
+      "name": "Chaoyang",
+      "associatedPort": "Yingkou",
+      "lat": "39.921034"
+    },
+    "Tambun": {
+      "lon": "107.073479",
+      "name": "Tambun",
+      "associatedPort": "Jakarta",
+      "lat": "-6.2512617"
+    },
+    "Santos": {
+      "lon": "-46.328099",
+      "name": "Santos",
+      "associatedPort": "Santos",
+      "lat": "-23.961694"
+    },
+    "Port_Said": {
+      "lon": "32.284458",
+      "name": "Port_Said",
+      "associatedPort": "Port_Said",
+      "lat": "31.259279"
+    },
+    "Kyotanabe": {
+      "lon": "135.7676947",
+      "name": "Kyotanabe",
+      "associatedPort": "Osaka",
+      "lat": "34.8144589"
+    },
+    "Nanjing": {
+      "lon": "118.796877",
+      "name": "Nanjing",
+      "associatedPort": "Shanghai",
+      "lat": "32.060255"
+    },
+    "Quebec": {
+      "lon": "-71.219359",
+      "name": "Quebec",
+      "associatedPort": "Quebec",
+      "lat": "46.812749"
+    },
+    "Boston": {
+      "lon": "-71.056699",
+      "name": "Boston",
+      "associatedPort": "Boston",
+      "lat": "42.358635"
+    },
+    "Recife": {
+      "lon": "-34.872004",
+      "name": "Recife",
+      "associatedPort": "Recife",
+      "lat": "-8.055384"
+    },
+    "Zhaoqing": {
+      "lon": "112.465091",
+      "name": "Zhaoqing",
+      "associatedPort": "Guangzhou",
+      "lat": "23.047192"
+    },
+    "Port_Sudan": {
+      "lon": "37.219688",
+      "name": "Port_Sudan",
+      "associatedPort": "Port_Sudan",
+      "lat": "19.615700"
+    },
+    "Laem_Chabang": {
+      "lon": "99.982330",
+      "name": "Laem_Chabang",
+      "associatedPort": "Laem_Chabang",
+      "lat": "13.207770"
+    },
+    "Seville": {
+      "lon": "-5.996295099999999",
+      "name": "Seville",
+      "associatedPort": "Algeciras",
+      "lat": "37.38263999999999"
+    },
+    "Adelaide": {
+      "lon": "138.599884",
+      "name": "Adelaide",
+      "associatedPort": "Adelaide",
+      "lat": "-34.926102"
+    },
+    "Toamasina": {
+      "lon": "49.400261",
+      "name": "Toamasina",
+      "associatedPort": "Toamasina",
+      "lat": "-18.146049"
+    },
+    "Halle": {
+      "lon": "11.96864",
+      "name": "Halle",
+      "associatedPort": "Hamburg",
+      "lat": "51.47971"
+    },
+    "Cape_Town": {
+      "lon": "18.421970",
+      "name": "Cape_Town",
+      "associatedPort": "Cape_Town",
+      "lat": "-33.919104"
+    },
+    "Manzanillo": {
+      "lon": "-104.308179",
+      "name": "Manzanillo",
+      "associatedPort": "Manzanillo",
+      "lat": "19.085820"
+    },
+    "Reykjavik": {
+      "lon": "-21.933989",
+      "name": "Reykjavik",
+      "associatedPort": "Reykjavik",
+      "lat": "64.147415"
+    },
+    "Langfang": {
+      "lon": "116.683752",
+      "name": "Langfang",
+      "associatedPort": "Tianjin",
+      "lat": "39.53804700000001"
+    },
+    "Eindhoven": {
+      "lon": "5.4697225",
+      "name": "Eindhoven",
+      "associatedPort": "Rotterdam",
+      "lat": "51.44164199999999"
+    },
+    "Sydney": {
+      "lon": "151.206955",
+      "name": "Sydney",
+      "associatedPort": "Sydney",
+      "lat": "-33.869629"
+    },
+    "Antofagasta": {
+      "lon": "-70.392749",
+      "name": "Antofagasta",
+      "associatedPort": "Antofagasta",
+      "lat": "-23.631469"
+    },
+    "Xuzhou": {
+      "lon": "117.284067",
+      "name": "Xuzhou",
+      "associatedPort": "Lianyungang",
+      "lat": "34.20475"
+    },
+    "Aden": {
+      "lon": "-77.543159",
+      "name": "Aden",
+      "associatedPort": "Aden",
+      "lat": "38.659142"
+    },
+    "Lagos": {
+      "lon": "3.423480",
+      "name": "Lagos",
+      "associatedPort": "Lagos",
+      "lat": "6.439180"
+    },
+    "Bandar-Abbas": {
+      "lon": "56.274330",
+      "name": "Bandar-Abbas",
+      "associatedPort": "Bandar-Abbas",
+      "lat": "27.187170"
+    },
+    "Leirvik": {
+      "lon": "5.5005327",
+      "name": "Leirvik",
+      "associatedPort": "Bergen",
+      "lat": "59.77976640000001"
+    },
+    "Jeddah": {
+      "lon": "39.182860",
+      "name": "Jeddah",
+      "associatedPort": "Jeddah",
+      "lat": "21.481680"
+    },
+    "Kotikawatta": {
+      "lon": "79.9304633",
+      "name": "Kotikawatta",
+      "associatedPort": "Colombo",
+      "lat": "6.931725300000001"
+    },
+    "Sanda": {
+      "lon": "135.225309",
+      "name": "Sanda",
+      "associatedPort": "Kobe",
+      "lat": "34.8895543"
+    },
+    "Ningde": {
+      "lon": "119.547933",
+      "name": "Ningde",
+      "associatedPort": "Xiamen",
+      "lat": "26.665617"
+    },
+    "Singapore": {
+      "lon": "103.853256",
+      "name": "Singapore",
+      "associatedPort": "Singapore",
+      "lat": "1.293780"
+    },
+    "Vancouver": {
+      "lon": "-123.114034",
+      "name": "Vancouver",
+      "associatedPort": "Vancouver",
+      "lat": "49.260440"
+    },
+    "Mechelen": {
+      "lon": "4.477657",
+      "name": "Mechelen",
+      "associatedPort": "Antwerp",
+      "lat": "51.026909"
+    },
+    "Oakland": {
+      "lon": "-122.273024",
+      "name": "Oakland",
+      "associatedPort": "Oakland",
+      "lat": "37.805065"
+    },
+    "Cartagena": {
+      "lon": "-75.505699",
+      "name": "Cartagena",
+      "associatedPort": "Cartagena",
+      "lat": "10.387060"
+    },
+    "Auckland": {
+      "lon": "-119.104575",
+      "name": "Auckland",
+      "associatedPort": "Auckland",
+      "lat": "36.597755"
+    },
+    "Los_Angeles": {
+      "lon": "-118.245319",
+      "name": "Los_Angeles",
+      "associatedPort": "Los_Angeles",
+      "lat": "34.053490"
+    },
+    "New_York": {
+      "lon": "-74.007118",
+      "name": "New_York",
+      "associatedPort": "New_York",
+      "lat": "40.714550"
+    },
+    "Acapulco": {
+      "lon": "-99.906969",
+      "name": "Acapulco",
+      "associatedPort": "Acapulco",
+      "lat": "16.850875"
+    },
+    "Yokohama": {
+      "lon": "139.595123",
+      "name": "Yokohama",
+      "associatedPort": "Yokohama",
+      "lat": "35.452702"
+    }
+  }
+}

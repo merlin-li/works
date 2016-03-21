@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+x-sap-ui-ScmRevision: HEAD
+x-sap-ui5-ScmRevision: HEAD
+x-sap-ui-BuildTimestamp: 201205161603
+Build-Jdk: 1.6.0_29
+Built-By: hudson
+Created-By: Apache Maven
+x-sap-ui5-BuildTimestamp: 201205161603
+Archiver-Version: Plexus Archiver
+

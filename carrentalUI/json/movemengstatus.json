@@ -1,0 +1,15 @@
+[
+  {
+    "Borrowed": 5,
+    "Cost": 99.0,
+    "Utilisation": 88.0,
+    "Repositionings": 45,
+    "Orders": 56
+  },
+  {
+    "Cost": 100.0,
+    "Utilisation": 88.0,
+    "Repositionings": 45,
+    "Orders": 56
+  }
+]
